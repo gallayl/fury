@@ -1,0 +1,2355 @@
+{
+  "program": {
+    "fileInfos": {
+      "c:/development/fury/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
+        "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b",
+        "signature": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "1c05c805f62c1c06a60b7812cd8de2dff7a5bda2218ce5edda5d9d298b1c48e1",
+        "signature": "1c05c805f62c1c06a60b7812cd8de2dff7a5bda2218ce5edda5d9d298b1c48e1"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4",
+        "signature": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a",
+        "signature": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
+        "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
+        "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
+        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "fc7c02b980e7dda0ed14d57ee71705c09efc51ec6286a10b971a25a3bb29262b",
+        "signature": "fc7c02b980e7dda0ed14d57ee71705c09efc51ec6286a10b971a25a3bb29262b"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859",
+        "signature": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "669427ac10ef9f52b6a7a502a66670eaabba675e0a660eb971041bd73c9894e3",
+        "signature": "669427ac10ef9f52b6a7a502a66670eaabba675e0a660eb971041bd73c9894e3"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "7a842c21e0fe143eb3ad4d689a1470bab5ed9bc7fd7223fe8b56cbae27038d62",
+        "signature": "7a842c21e0fe143eb3ad4d689a1470bab5ed9bc7fd7223fe8b56cbae27038d62"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.full.d.ts": {
+        "version": "b209a815904a485328677714ef8c4ddd2dcf4040154fa204d25cbf31cd4ff0f3",
+        "signature": "b209a815904a485328677714ef8c4ddd2dcf4040154fa204d25cbf31cd4ff0f3"
+      },
+      "c:/development/fury/node_modules/tslib/tslib.d.ts": {
+        "version": "8a0a25ded65c0cb7b03c0109bc6ca580eeb8435bb073c5fb89cd043c9a1ee42e",
+        "signature": "8a0a25ded65c0cb7b03c0109bc6ca580eeb8435bb073c5fb89cd043c9a1ee42e"
+      },
+      "c:/development/fury/node_modules/reflect-metadata/index.d.ts": {
+        "version": "8d6d51a5118d000ed3bfe6e1dd1335bebfff3fef23cd2af2f84a24d30f90cc90",
+        "signature": "8d6d51a5118d000ed3bfe6e1dd1335bebfff3fef23cd2af2f84a24d30f90cc90"
+      },
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts": {
+        "version": "a1dbed4ec138225f4b13c9f10784c49c55807e6753b5f9919c258520f11b92d6",
+        "signature": "a1dbed4ec138225f4b13c9f10784c49c55807e6753b5f9919c258520f11b92d6"
+      },
+      "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts": {
+        "version": "c91ec19e6d6d8596b985b3b082bb73a74014bf2f0433715badc5c81065acd9e5",
+        "signature": "c91ec19e6d6d8596b985b3b082bb73a74014bf2f0433715badc5c81065acd9e5"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts": {
+        "version": "e6bdc05519b523b53414c6f2a5b40363564995f1ef499d3b917bf133c6ac1c9c",
+        "signature": "e6bdc05519b523b53414c6f2a5b40363564995f1ef499d3b917bf133c6ac1c9c"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/deepmerge.d.ts": {
+        "version": "51b85b18f915f9cf79b7b208cdfaa1ef3085b1b80815fcbb506606c218445571",
+        "signature": "51b85b18f915f9cf79b7b208cdfaa1ef3085b1b80815fcbb506606c218445571"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/filterasync.d.ts": {
+        "version": "afc4cee084610b81b988853a9873cfbd7788d6514bc2d50ea114a6fc3037b567",
+        "signature": "afc4cee084610b81b988853a9873cfbd7788d6514bc2d50ea114a6fc3037b567"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/debounce.d.ts": {
+        "version": "407510a5e7ad379990059404df8bb0e75b070c058ff538816dfba557a5abe62b",
+        "signature": "407510a5e7ad379990059404df8bb0e75b070c058ff538816dfba557a5abe62b"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts": {
+        "version": "1eeab0ae8998ddc6ef34a9229282d867991d7866401b2b8684a96f43e65ed4d4",
+        "signature": "1eeab0ae8998ddc6ef34a9229282d867991d7866401b2b8684a96f43e65ed4d4"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts": {
+        "version": "5bcfe94f36b92f452468ddfc277a06e3c0abca966892c10d8a4804b902b0442f",
+        "signature": "5bcfe94f36b92f452468ddfc277a06e3c0abca966892c10d8a4804b902b0442f"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrieroptions.d.ts": {
+        "version": "7c1f321d91257428ac965ca18d2c35e6f07b472dbf8924c034c029e9ff41e8a1",
+        "signature": "7c1f321d91257428ac965ca18d2c35e6f07b472dbf8924c034c029e9ff41e8a1"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrier.d.ts": {
+        "version": "d03aad1c25a612c8fa989e5c23c7f2a3bdf812bd3aac5ef7d06eaf28ef10a32c",
+        "signature": "d03aad1c25a612c8fa989e5c23c7f2a3bdf812bd3aac5ef7d06eaf28ef10a32c"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/pathhelper.d.ts": {
+        "version": "dd6d737b8df293e7ff6f0ea28754f37d9f76816db9752c7710f43c3608b0fc79",
+        "signature": "dd6d737b8df293e7ff6f0ea28754f37d9f76816db9752c7710f43c3608b0fc79"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/sleepasync.d.ts": {
+        "version": "59e9fc8c0bf07a082391196ecfb6d1037f50682690bf791b18eb5db4419ca69a",
+        "signature": "59e9fc8c0bf07a082391196ecfb6d1037f50682690bf791b18eb5db4419ca69a"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/trace.d.ts": {
+        "version": "efa5581cdd8f01e4f8f3d5fb3164d7b3a6c43a43468513b92ec1e8afae60d1d7",
+        "signature": "efa5581cdd8f01e4f8f3d5fb3164d7b3a6c43a43468513b92ec1e8afae60d1d7"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/tonumber.d.ts": {
+        "version": "dc2fa8978c98e86bfce1608f32384f46581db69e9c1a93b3013a252640b543dc",
+        "signature": "dc2fa8978c98e86bfce1608f32384f46581db69e9c1a93b3013a252640b543dc"
+      },
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts": {
+        "version": "043e72d391505f6e838cac6eb2e94843a44cd6e1c5ef72f4173476b20e361eaa",
+        "signature": "043e72d391505f6e838cac6eb2e94843a44cd6e1c5ef72f4173476b20e361eaa"
+      },
+      "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts": {
+        "version": "2e0b8045def6e4cd156db694798d654ba6e2efd94e5e6fadb7c03bcb4e357881",
+        "signature": "2e0b8045def6e4cd156db694798d654ba6e2efd94e5e6fadb7c03bcb4e357881"
+      },
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/index.d.ts": {
+        "version": "e0a58faa3a9e6ac0b57831785e52cc76b32cc1593faa1ae87ae3526d1f084fca",
+        "signature": "e0a58faa3a9e6ac0b57831785e52cc76b32cc1593faa1ae87ae3526d1f084fca"
+      },
+      "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts": {
+        "version": "f59d171f3544708215464933b8b1955af19880f620a215f9599868294090197d",
+        "signature": "f59d171f3544708215464933b8b1955af19880f620a215f9599868294090197d"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts": {
+        "version": "a0b53f22ec72556c3783f813eb349d11088b0547eaa898edbeb6525571113e68",
+        "signature": "a0b53f22ec72556c3783f813eb349d11088b0547eaa898edbeb6525571113e68"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts": {
+        "version": "4255e70a9bcfa7b9711c912b0a96d9661e356f63cfb3d489489245b15ddfe654",
+        "signature": "4255e70a9bcfa7b9711c912b0a96d9661e356f63cfb3d489489245b15ddfe654"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts": {
+        "version": "1661432ca33893c0c7664f7472523ae645841b8deebf2edbac53bcaef9ebefbc",
+        "signature": "1661432ca33893c0c7664f7472523ae645841b8deebf2edbac53bcaef9ebefbc"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/consolelogger.d.ts": {
+        "version": "4b35a98c535b33abf54e0ebc18b339a14d2582659eaff75ee4a319e35a49ae4f",
+        "signature": "4b35a98c535b33abf54e0ebc18b339a14d2582659eaff75ee4a319e35a49ae4f"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/testlogger.d.ts": {
+        "version": "0c1bf0169ac4cc9b5635db50d3a71a7e69982073a659603156efbf6f639d7abc",
+        "signature": "0c1bf0169ac4cc9b5635db50d3a71a7e69982073a659603156efbf6f639d7abc"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/loggercollection.d.ts": {
+        "version": "fe2cd27fc198de5bf1b738181e739772f4af492b028047bf5544d71088d1f2d3",
+        "signature": "fe2cd27fc198de5bf1b738181e739772f4af492b028047bf5544d71088d1f2d3"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts": {
+        "version": "780a0d2bb6d0b807ab301114273d2977a90d33a7e7e4f0f026116681592c437b",
+        "signature": "780a0d2bb6d0b807ab301114273d2977a90d33a7e7e4f0f026116681592c437b"
+      },
+      "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts": {
+        "version": "2ee04d0687424b78f509d1f09bc1e09196b77c3da37c8f9e32f386acee1d07cf",
+        "signature": "2ee04d0687424b78f509d1f09bc1e09196b77c3da37c8f9e32f386acee1d07cf"
+      },
+      "c:/development/fury/node_modules/@types/node/globals.d.ts": {
+        "version": "0909474c73e738594b752e015ad0411825eee91669df44ebcf988ee4f2c0d38a",
+        "signature": "0909474c73e738594b752e015ad0411825eee91669df44ebcf988ee4f2c0d38a"
+      },
+      "c:/development/fury/node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "c:/development/fury/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561",
+        "signature": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561"
+      },
+      "c:/development/fury/node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "c:/development/fury/node_modules/@types/node/child_process.d.ts": {
+        "version": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00",
+        "signature": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00"
+      },
+      "c:/development/fury/node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "c:/development/fury/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "c:/development/fury/node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "c:/development/fury/node_modules/@types/node/crypto.d.ts": {
+        "version": "325154b5b9b94af94b9c0cea4a051496693e6253be1abb2b6399b68331d70e46",
+        "signature": "325154b5b9b94af94b9c0cea4a051496693e6253be1abb2b6399b68331d70e46"
+      },
+      "c:/development/fury/node_modules/@types/node/dgram.d.ts": {
+        "version": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a",
+        "signature": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a"
+      },
+      "c:/development/fury/node_modules/@types/node/dns.d.ts": {
+        "version": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677",
+        "signature": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677"
+      },
+      "c:/development/fury/node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "c:/development/fury/node_modules/@types/node/events.d.ts": {
+        "version": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c",
+        "signature": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c"
+      },
+      "c:/development/fury/node_modules/@types/node/fs.d.ts": {
+        "version": "443b649496d14353d14e79b502a210f33c2d868f4c07df84c0e08cb013c08211",
+        "signature": "443b649496d14353d14e79b502a210f33c2d868f4c07df84c0e08cb013c08211"
+      },
+      "c:/development/fury/node_modules/@types/node/http.d.ts": {
+        "version": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8",
+        "signature": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8"
+      },
+      "c:/development/fury/node_modules/@types/node/http2.d.ts": {
+        "version": "ef535a3849d5826d70b2b341420e239e180d2d9d64045e84683b6a52a82845b5",
+        "signature": "ef535a3849d5826d70b2b341420e239e180d2d9d64045e84683b6a52a82845b5"
+      },
+      "c:/development/fury/node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6"
+      },
+      "c:/development/fury/node_modules/@types/node/inspector.d.ts": {
+        "version": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25",
+        "signature": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25"
+      },
+      "c:/development/fury/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "c:/development/fury/node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50"
+      },
+      "c:/development/fury/node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "c:/development/fury/node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "c:/development/fury/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "c:/development/fury/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "c:/development/fury/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "c:/development/fury/node_modules/@types/node/querystring.d.ts": {
+        "version": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e",
+        "signature": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e"
+      },
+      "c:/development/fury/node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c"
+      },
+      "c:/development/fury/node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "c:/development/fury/node_modules/@types/node/stream.d.ts": {
+        "version": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65",
+        "signature": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65"
+      },
+      "c:/development/fury/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "c:/development/fury/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "c:/development/fury/node_modules/@types/node/tls.d.ts": {
+        "version": "af4eb6cfde4501c70e7cfb453370eb671ae51e20a3e591ddff71cdd2c190114e",
+        "signature": "af4eb6cfde4501c70e7cfb453370eb671ae51e20a3e591ddff71cdd2c190114e"
+      },
+      "c:/development/fury/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "c:/development/fury/node_modules/@types/node/tty.d.ts": {
+        "version": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4",
+        "signature": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4"
+      },
+      "c:/development/fury/node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+      },
+      "c:/development/fury/node_modules/@types/node/util.d.ts": {
+        "version": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12",
+        "signature": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12"
+      },
+      "c:/development/fury/node_modules/@types/node/v8.d.ts": {
+        "version": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "signature": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033"
+      },
+      "c:/development/fury/node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "c:/development/fury/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "signature": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402"
+      },
+      "c:/development/fury/node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9"
+      },
+      "c:/development/fury/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "c:/development/fury/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1",
+        "signature": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1"
+      },
+      "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts": {
+        "version": "53dc51b71cb624d2ace3f4492a57d6f6bb2b591c4eb938decf56862dde642276",
+        "signature": "53dc51b71cb624d2ace3f4492a57d6f6bb2b591c4eb938decf56862dde642276"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/systemroles.d.ts": {
+        "version": "74ddeff62f7921f21dcb34cbce912004ec795bf17f7af7ed5c5ac3bb0a80f633",
+        "signature": "74ddeff62f7921f21dcb34cbce912004ec795bf17f7af7ed5c5ac3bb0a80f633"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts": {
+        "version": "27cd56eeb1f36e26f743ead5be45a6acad1b8c746b9469fd3abbb57409702283",
+        "signature": "27cd56eeb1f36e26f743ead5be45a6acad1b8c746b9469fd3abbb57409702283"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts": {
+        "version": "6e6397bff6ebd5c5dbc4c159a905f4c42c47695b6ebd770038d0dd5ce743642c",
+        "signature": "6e6397bff6ebd5c5dbc4c159a905f4c42c47695b6ebd770038d0dd5ce743642c"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts": {
+        "version": "26b9d4ddbb1fea91de35da0c29ace591597dafafbe56ed85da536280082695dc",
+        "signature": "26b9d4ddbb1fea91de35da0c29ace591597dafafbe56ed85da536280082695dc"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/servermanager.d.ts": {
+        "version": "286d0ec9bf14893934d6865f6c7ef14583fb5d512e0108df8ccab6c15dfb85b6",
+        "signature": "286d0ec9bf14893934d6865f6c7ef14583fb5d512e0108df8ccab6c15dfb85b6"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/models/user.d.ts": {
+        "version": "1f253542d3d0d0897c3e7608192786ed79c8709859b17e7479edfc9a9c6faa40",
+        "signature": "1f253542d3d0d0897c3e7608192786ed79c8709859b17e7479edfc9a9c6faa40"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/filestore.d.ts": {
+        "version": "a4a04e8759bb9db4ec8ebb85ab9c861c9e0ec7a3b14066982ff3b4c423dc0093",
+        "signature": "a4a04e8759bb9db4ec8ebb85ab9c861c9e0ec7a3b14066982ff3b4c423dc0093"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/inmemorystore.d.ts": {
+        "version": "b593aa21471ac74668e1eb51fe3bce748f6745eef9c1b1effbc3b782390cea87",
+        "signature": "b593aa21471ac74668e1eb51fe3bce748f6745eef9c1b1effbc3b782390cea87"
+      },
+      "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts": {
+        "version": "79fcad806ee4139e6b143a9511eab14f4a4b53cc9a345bada41051e736bba0f4",
+        "signature": "79fcad806ee4139e6b143a9511eab14f4a4b53cc9a345bada41051e736bba0f4"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/defaultsession.d.ts": {
+        "version": "db782dce63f8ef80d871cdfd264ab6a4a674341e256fd6cdf7d9aaa16f984abc",
+        "signature": "db782dce63f8ef80d871cdfd264ab6a4a674341e256fd6cdf7d9aaa16f984abc"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts": {
+        "version": "1c643e24e9662a9b6e3eadcede16f3de31bee288d9e45c9eff2c9ef161b183ac",
+        "signature": "1c643e24e9662a9b6e3eadcede16f3de31bee288d9e45c9eff2c9ef161b183ac"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts": {
+        "version": "7a9f149eef5f6aeedde4bd18be98ee97cf78298eb8f0e3e12bbec715b90d9254",
+        "signature": "7a9f149eef5f6aeedde4bd18be98ee97cf78298eb8f0e3e12bbec715b90d9254"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts": {
+        "version": "caa086f0edd37f1f4bdde4b2a5e60ab4f6c2829b9e336c4ce7cdbb94771a9072",
+        "signature": "caa086f0edd37f1f4bdde4b2a5e60ab4f6c2829b9e336c4ce7cdbb94771a9072"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts": {
+        "version": "cc5025d4eb6b07e86807ea37897cb446b47bdb2951989d53e89febbf76c6e24b",
+        "signature": "cc5025d4eb6b07e86807ea37897cb446b47bdb2951989d53e89febbf76c6e24b"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts": {
+        "version": "cdbb66ebdb12031018855eaee8456bfd40687ecd0a092d188f595d1440e4f680",
+        "signature": "cdbb66ebdb12031018855eaee8456bfd40687ecd0a092d188f595d1440e4f680"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts": {
+        "version": "ddc15393068107851bb15d7d84773581ff17590df2e5f2bf46157f710bf2e6a3",
+        "signature": "ddc15393068107851bb15d7d84773581ff17590df2e5f2bf46157f710bf2e6a3"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts": {
+        "version": "fae6503ee0cab48ebefcf6f7de0810d2282fed8ca054cd2849cde63d6d47c127",
+        "signature": "fae6503ee0cab48ebefcf6f7de0810d2282fed8ca054cd2849cde63d6d47c127"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/getcurrentuser.d.ts": {
+        "version": "57449a6a770d552ef2a873b2c8ca548eb2ab8163ef43a67e95329e46db0d2451",
+        "signature": "57449a6a770d552ef2a873b2c8ca548eb2ab8163ef43a67e95329e46db0d2451"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts": {
+        "version": "d8f1544e0db1fd355542ba223f106d1ba2d9dfa1a3c8308a503dcc4d48c8329f",
+        "signature": "d8f1544e0db1fd355542ba223f106d1ba2d9dfa1a3c8308a503dcc4d48c8329f"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/login.d.ts": {
+        "version": "9fefc07cbce0873306a8bcc0a044e41016b45ebb518e1905a87239456790e04a",
+        "signature": "9fefc07cbce0873306a8bcc0a044e41016b45ebb518e1905a87239456790e04a"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/logout.d.ts": {
+        "version": "6bb22683b25fae2f9a8c27d115432728779c85d52fdc7add6f1e80e95aaf88e7",
+        "signature": "6bb22683b25fae2f9a8c27d115432728779c85d52fdc7add6f1e80e95aaf88e7"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/index.d.ts": {
+        "version": "ceec734e8f8dc67329c1194d7f366d477cc036663efcd0868391770541da62ad",
+        "signature": "ceec734e8f8dc67329c1194d7f366d477cc036663efcd0868391770541da62ad"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts": {
+        "version": "77c09b713b0238b36b83876b1858cddfb97a2324eb895c99ed8d72b7b7a58d96",
+        "signature": "77c09b713b0238b36b83876b1858cddfb97a2324eb895c99ed8d72b7b7a58d96"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts": {
+        "version": "3b879413eb912e6cc9c6d975e65a477eb62ee2f8e7dcbfba448d7375cf500c25",
+        "signature": "3b879413eb912e6cc9c6d975e65a477eb62ee2f8e7dcbfba448d7375cf500c25"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts": {
+        "version": "0a1977659a6d1306c4dab66ea5056094550bd9ade83f56f76a7a35f3711bf0b5",
+        "signature": "0a1977659a6d1306c4dab66ea5056094550bd9ade83f56f76a7a35f3711bf0b5"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapi.d.ts": {
+        "version": "f9b1e52dfb860f28d97cf29454cd676c0a60a994569a84daa2b14bfff4fb4ef3",
+        "signature": "f9b1e52dfb860f28d97cf29454cd676c0a60a994569a84daa2b14bfff4fb4ef3"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts": {
+        "version": "b2175525e8b33345f435d99a9d586ef2a81aa8a519fcd6ad2098817f39ba6fcc",
+        "signature": "b2175525e8b33345f435d99a9d586ef2a81aa8a519fcd6ad2098817f39ba6fcc"
+      },
+      "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts": {
+        "version": "b8f3331b1077419c4db842327ab931a1db04d3c8ba760be407c8877b39ee0252",
+        "signature": "b8f3331b1077419c4db842327ab931a1db04d3c8ba760be407c8877b39ee0252"
+      },
+      "c:/development/fury/service/src/index.ts": {
+        "version": "5f6efe3ba77fcfa0445029fd19f7843aee5580e52b4f7649b689175480ee54a3",
+        "signature": "6a6ac43a33970269ece267300adcb392486a0c4fbbb837a95235af3fbfe27cdf"
+      },
+      "c:/development/fury/node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613"
+      }
+    },
+    "options": {
+      "incremental": true,
+      "target": 8,
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "composite": true,
+      "importHelpers": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": 2,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": 1,
+      "outDir": "C:/Development/fury/service/dist",
+      "rootDir": "C:/Development/fury/service/src",
+      "configFilePath": "C:/Development/fury/service/tsconfig.json"
+    },
+    "referencedMap": {
+      "c:/development/fury/node_modules/typescript/lib/lib.es5.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.array.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.object.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.string.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.full.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/tslib/tslib.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/reflect-metadata/index.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts": [
+        "c:/development/fury/node_modules/reflect-metadata/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/deepmerge.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/filterasync.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/debounce.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrieroptions.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrier.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrieroptions.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/pathhelper.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/sleepasync.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/trace.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/tonumber.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/deepmerge.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/filterasync.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/debounce.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrier.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/pathhelper.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/sleepasync.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/trace.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/tonumber.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/consolelogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/testlogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/loggercollection.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/consolelogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/testlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/loggercollection.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/globals.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/assert.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/async_hooks.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/buffer.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/child_process.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/cluster.d.ts": [
+        "c:/development/fury/node_modules/@types/node/child_process.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/console.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/constants.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/crypto.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/dgram.d.ts": [
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/dns.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/domain.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/events.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/fs.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/http.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/http2.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/fs.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/tls.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/https.d.ts": [
+        "c:/development/fury/node_modules/@types/node/tls.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/inspector.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/module.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/net.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/os.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/path.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/perf_hooks.d.ts": [
+        "c:/development/fury/node_modules/@types/node/async_hooks.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/process.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/punycode.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/querystring.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/readline.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/repl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/readline.d.ts",
+        "c:/development/fury/node_modules/@types/node/vm.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/stream.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/string_decoder.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/timers.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/tls.d.ts": [
+        "c:/development/fury/node_modules/@types/node/crypto.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/trace_events.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/tty.d.ts": [
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/url.d.ts": [
+        "c:/development/fury/node_modules/@types/node/querystring.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/util.d.ts": [
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/v8.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/vm.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/worker_threads.d.ts": [
+        "c:/development/fury/node_modules/@types/node/vm.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/zlib.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/base.d.ts": [
+        "c:/development/fury/node_modules/@types/node/globals.d.ts",
+        "c:/development/fury/node_modules/@types/node/assert.d.ts",
+        "c:/development/fury/node_modules/@types/node/async_hooks.d.ts",
+        "c:/development/fury/node_modules/@types/node/buffer.d.ts",
+        "c:/development/fury/node_modules/@types/node/child_process.d.ts",
+        "c:/development/fury/node_modules/@types/node/cluster.d.ts",
+        "c:/development/fury/node_modules/@types/node/console.d.ts",
+        "c:/development/fury/node_modules/@types/node/constants.d.ts",
+        "c:/development/fury/node_modules/@types/node/crypto.d.ts",
+        "c:/development/fury/node_modules/@types/node/dgram.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/domain.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/fs.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/http2.d.ts",
+        "c:/development/fury/node_modules/@types/node/https.d.ts",
+        "c:/development/fury/node_modules/@types/node/inspector.d.ts",
+        "c:/development/fury/node_modules/@types/node/module.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/os.d.ts",
+        "c:/development/fury/node_modules/@types/node/path.d.ts",
+        "c:/development/fury/node_modules/@types/node/perf_hooks.d.ts",
+        "c:/development/fury/node_modules/@types/node/process.d.ts",
+        "c:/development/fury/node_modules/@types/node/punycode.d.ts",
+        "c:/development/fury/node_modules/@types/node/querystring.d.ts",
+        "c:/development/fury/node_modules/@types/node/readline.d.ts",
+        "c:/development/fury/node_modules/@types/node/repl.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/string_decoder.d.ts",
+        "c:/development/fury/node_modules/@types/node/timers.d.ts",
+        "c:/development/fury/node_modules/@types/node/tls.d.ts",
+        "c:/development/fury/node_modules/@types/node/trace_events.d.ts",
+        "c:/development/fury/node_modules/@types/node/tty.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/v8.d.ts",
+        "c:/development/fury/node_modules/@types/node/vm.d.ts",
+        "c:/development/fury/node_modules/@types/node/worker_threads.d.ts",
+        "c:/development/fury/node_modules/@types/node/zlib.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "c:/development/fury/node_modules/@types/node/globals.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts": [
+        "c:/development/fury/node_modules/@types/node/base.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/globals.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/systemroles.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/servermanager.d.ts": [
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/models/user.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/filestore.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/fs.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/inmemorystore.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/systemroles.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/servermanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/user.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/filestore.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/inmemorystore.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/defaultsession.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/defaultsession.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/getcurrentuser.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/login.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/logout.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/getcurrentuser.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/login.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/logout.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapi.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/https.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapi.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/service/src/index.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/normalize-package-data/index.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "c:/development/fury/node_modules/typescript/lib/lib.es5.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.array.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.object.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.string.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.full.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/tslib/tslib.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/reflect-metadata/index.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/service/src/index.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/https.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapi.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/systemroles.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/servermanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/user.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/filestore.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/inmemorystore.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/logout.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/getcurrentuser.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/login.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/logout.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/login.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/getcurrentuser.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapi.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/defaultsession.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/consolelogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/testlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/loggercollection.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/filestore.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/fs.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/inmemorystore.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts": [
+        "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts": [
+        "c:/development/fury/node_modules/reflect-metadata/index.d.ts",
+        "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/deepmerge.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/filterasync.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/debounce.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrier.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/pathhelper.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/sleepasync.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/trace.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/tonumber.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/trace.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/deepmerge.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/filterasync.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/debounce.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrieroptions.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrier.d.ts": [
+        "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrieroptions.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/pathhelper.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/sleepasync.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/tonumber.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/loggercollection.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/testlogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/consolelogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts": [
+        "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/globals.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/assert.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/base.d.ts": [
+        "c:/development/fury/node_modules/@types/node/globals.d.ts",
+        "c:/development/fury/node_modules/@types/node/assert.d.ts",
+        "c:/development/fury/node_modules/@types/node/async_hooks.d.ts",
+        "c:/development/fury/node_modules/@types/node/buffer.d.ts",
+        "c:/development/fury/node_modules/@types/node/child_process.d.ts",
+        "c:/development/fury/node_modules/@types/node/cluster.d.ts",
+        "c:/development/fury/node_modules/@types/node/console.d.ts",
+        "c:/development/fury/node_modules/@types/node/constants.d.ts",
+        "c:/development/fury/node_modules/@types/node/crypto.d.ts",
+        "c:/development/fury/node_modules/@types/node/dgram.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/domain.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/fs.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/http2.d.ts",
+        "c:/development/fury/node_modules/@types/node/https.d.ts",
+        "c:/development/fury/node_modules/@types/node/inspector.d.ts",
+        "c:/development/fury/node_modules/@types/node/module.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/os.d.ts",
+        "c:/development/fury/node_modules/@types/node/path.d.ts",
+        "c:/development/fury/node_modules/@types/node/perf_hooks.d.ts",
+        "c:/development/fury/node_modules/@types/node/process.d.ts",
+        "c:/development/fury/node_modules/@types/node/punycode.d.ts",
+        "c:/development/fury/node_modules/@types/node/querystring.d.ts",
+        "c:/development/fury/node_modules/@types/node/readline.d.ts",
+        "c:/development/fury/node_modules/@types/node/repl.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/string_decoder.d.ts",
+        "c:/development/fury/node_modules/@types/node/timers.d.ts",
+        "c:/development/fury/node_modules/@types/node/tls.d.ts",
+        "c:/development/fury/node_modules/@types/node/trace_events.d.ts",
+        "c:/development/fury/node_modules/@types/node/tty.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/v8.d.ts",
+        "c:/development/fury/node_modules/@types/node/vm.d.ts",
+        "c:/development/fury/node_modules/@types/node/worker_threads.d.ts",
+        "c:/development/fury/node_modules/@types/node/zlib.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts": [
+        "c:/development/fury/node_modules/@types/node/base.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/globals.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts": [
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/servermanager.d.ts": [
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/async_hooks.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/perf_hooks.d.ts": [
+        "c:/development/fury/node_modules/@types/node/async_hooks.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/buffer.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/child_process.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/cluster.d.ts": [
+        "c:/development/fury/node_modules/@types/node/child_process.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/console.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/constants.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/crypto.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/tls.d.ts": [
+        "c:/development/fury/node_modules/@types/node/crypto.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/https.d.ts": [
+        "c:/development/fury/node_modules/@types/node/tls.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/http2.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/fs.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/tls.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/http.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/dgram.d.ts": [
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/dns.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/net.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/dns.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/tty.d.ts": [
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/http.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/net.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/domain.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/events.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/worker_threads.d.ts": [
+        "c:/development/fury/node_modules/@types/node/vm.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/stream.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/zlib.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/v8.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/readline.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/repl.d.ts": [
+        "c:/development/fury/node_modules/@types/node/readline.d.ts",
+        "c:/development/fury/node_modules/@types/node/vm.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/fs.d.ts": [
+        "c:/development/fury/node_modules/@types/node/stream.d.ts",
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/url.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/inspector.d.ts": [
+        "c:/development/fury/node_modules/@types/node/events.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/module.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/os.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/path.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/process.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/punycode.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/querystring.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/url.d.ts": [
+        "c:/development/fury/node_modules/@types/node/querystring.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/string_decoder.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/timers.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/trace_events.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/util.d.ts": [
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/normalize-package-data/index.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/defaultsession.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/models/user.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/systemroles.d.ts": [
+        "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "c:/development/fury/node_modules/@types/node/globals.d.ts",
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/development/fury/node_modules/@types/node/vm.d.ts": [
+        "c:/development/fury/node_modules/@types/node/util.d.ts",
+        "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "c:/development/fury/node_modules/typescript/lib/lib.es5.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "c:/development/fury/node_modules/typescript/lib/lib.esnext.full.d.ts",
+      "c:/development/fury/node_modules/tslib/tslib.d.ts",
+      "c:/development/fury/node_modules/reflect-metadata/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/constructable.d.ts",
+      "c:/development/fury/node_modules/@furystack/inject/dist/injectable.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/disposable.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/deepmerge.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/filterasync.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/debounce.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/valueobserver.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/observablevalue.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrieroptions.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/retrier.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/pathhelper.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/sleepasync.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/trace.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/tonumber.d.ts",
+      "c:/development/fury/node_modules/@sensenet/client-utils/dist/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/inject/dist/injector.d.ts",
+      "c:/development/fury/node_modules/@furystack/inject/dist/types/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/inject/dist/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogentries.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/ilogger.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/abstractlogger.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/consolelogger.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/testlogger.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/loggercollection.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/injectorextension.d.ts",
+      "c:/development/fury/node_modules/@furystack/logging/dist/index.d.ts",
+      "c:/development/fury/node_modules/@types/node/globals.d.ts",
+      "c:/development/fury/node_modules/@types/node/assert.d.ts",
+      "c:/development/fury/node_modules/@types/node/async_hooks.d.ts",
+      "c:/development/fury/node_modules/@types/node/buffer.d.ts",
+      "c:/development/fury/node_modules/@types/node/child_process.d.ts",
+      "c:/development/fury/node_modules/@types/node/cluster.d.ts",
+      "c:/development/fury/node_modules/@types/node/console.d.ts",
+      "c:/development/fury/node_modules/@types/node/constants.d.ts",
+      "c:/development/fury/node_modules/@types/node/crypto.d.ts",
+      "c:/development/fury/node_modules/@types/node/dgram.d.ts",
+      "c:/development/fury/node_modules/@types/node/dns.d.ts",
+      "c:/development/fury/node_modules/@types/node/domain.d.ts",
+      "c:/development/fury/node_modules/@types/node/events.d.ts",
+      "c:/development/fury/node_modules/@types/node/fs.d.ts",
+      "c:/development/fury/node_modules/@types/node/http.d.ts",
+      "c:/development/fury/node_modules/@types/node/http2.d.ts",
+      "c:/development/fury/node_modules/@types/node/https.d.ts",
+      "c:/development/fury/node_modules/@types/node/inspector.d.ts",
+      "c:/development/fury/node_modules/@types/node/module.d.ts",
+      "c:/development/fury/node_modules/@types/node/net.d.ts",
+      "c:/development/fury/node_modules/@types/node/os.d.ts",
+      "c:/development/fury/node_modules/@types/node/path.d.ts",
+      "c:/development/fury/node_modules/@types/node/perf_hooks.d.ts",
+      "c:/development/fury/node_modules/@types/node/process.d.ts",
+      "c:/development/fury/node_modules/@types/node/punycode.d.ts",
+      "c:/development/fury/node_modules/@types/node/querystring.d.ts",
+      "c:/development/fury/node_modules/@types/node/readline.d.ts",
+      "c:/development/fury/node_modules/@types/node/repl.d.ts",
+      "c:/development/fury/node_modules/@types/node/stream.d.ts",
+      "c:/development/fury/node_modules/@types/node/string_decoder.d.ts",
+      "c:/development/fury/node_modules/@types/node/timers.d.ts",
+      "c:/development/fury/node_modules/@types/node/tls.d.ts",
+      "c:/development/fury/node_modules/@types/node/trace_events.d.ts",
+      "c:/development/fury/node_modules/@types/node/tty.d.ts",
+      "c:/development/fury/node_modules/@types/node/url.d.ts",
+      "c:/development/fury/node_modules/@types/node/util.d.ts",
+      "c:/development/fury/node_modules/@types/node/v8.d.ts",
+      "c:/development/fury/node_modules/@types/node/vm.d.ts",
+      "c:/development/fury/node_modules/@types/node/worker_threads.d.ts",
+      "c:/development/fury/node_modules/@types/node/zlib.d.ts",
+      "c:/development/fury/node_modules/@types/node/base.d.ts",
+      "c:/development/fury/node_modules/@types/node/ts3.2/util.d.ts",
+      "c:/development/fury/node_modules/@types/node/ts3.2/globals.d.ts",
+      "c:/development/fury/node_modules/@types/node/ts3.2/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/models/irole.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/systemroles.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/models/iphysicalstore.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/storemanager.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/injectorextension.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/servermanager.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/models/user.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/filestore.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/inmemorystore.d.ts",
+      "c:/development/fury/node_modules/@furystack/core/dist/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/defaultsession.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpauthenticationsettings.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iexternalloginservice.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpusercontext.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/irequestaction.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/icorsoptions.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/iroutemodel.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/models/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/getcurrentuser.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/utils.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/login.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/logout.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/index.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/erroraction.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/actions/notfoundaction.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapisettings.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/httpapi.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/injectorextension.d.ts",
+      "c:/development/fury/node_modules/@furystack/http-api/dist/index.d.ts",
+      "c:/development/fury/service/src/index.ts",
+      "c:/development/fury/node_modules/@types/normalize-package-data/index.d.ts"
+    ]
+  },
+  "version": "3.5.1"
+}
