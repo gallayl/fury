@@ -2,7 +2,9 @@ import { ServerResponse } from "http";
 import { platform, type, release, hostname } from "os";
 import { cpu } from "systeminformation";
 import { RequestAction, HttpUserContext } from "@furystack/http-api";
+import { Injectable } from "@furystack/inject";
 
+@Injectable()
 export class GetSystemDetailsAction implements RequestAction {
   public async exec(): Promise<void> {
     if (

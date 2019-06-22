@@ -2,7 +2,9 @@ import { ServerResponse } from "http";
 import { freemem, totalmem, uptime } from "os";
 import { cpuTemperature, currentLoad } from "systeminformation";
 import { RequestAction, HttpUserContext } from "@furystack/http-api";
+import { Injectable } from "@furystack/inject";
 
+@Injectable()
 export class GetSystemLoadAction implements RequestAction {
   public async exec(): Promise<void> {
     if (
