@@ -2,14 +2,32 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:cypress/recommended",
     "plugin:import/recommended",
+    "plugin:import/react",
     "plugin:import/typescript",
     "prettier",
+    "prettier/react",
     "prettier/@typescript-eslint"
   ],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "prettier", "jsdoc", "import"],
-  env: { browser: true, node: true, es6: true, jest: true },
+  plugins: [
+    "@typescript-eslint",
+    "prettier",
+    "react",
+    "cypress",
+    "jsdoc",
+    "import",
+    "react-hooks"
+  ],
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+    jest: true,
+    "cypress/globals": true
+  },
   parserOptions: {
     ecmaVersion: 6,
     sourceType: "module",
@@ -18,12 +36,16 @@ module.exports = {
     }
   },
   settings: {
+    react: {
+      version: "detect"
+    },
     jsdoc: { exemptEmptyFunctions: false }
   },
   rules: {
     "arrow-parens": ["error", "as-needed"],
     "no-unused-vars": "off",
     "no-console": "off",
+    "react/prop-types": 0,
     "@typescript-eslint/no-unused-vars": "off", // Use Typescript own check for this
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": [
@@ -49,6 +71,8 @@ module.exports = {
     ],
     "prettier/prettier": "error",
     "require-jsdoc": 1,
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
     "import/no-unresolved": "off",
     "import/order": "error",
     "object-shorthand": "error",

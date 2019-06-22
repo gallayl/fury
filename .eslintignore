@@ -1,4 +1,4 @@
-packages/**/node_modules/*
-examples/**/node_modules/*
-examples/**/dist/*
-packages/**/dist/*
+frontend/node_modules/*
+frontend/dist/*
+service/node_modules/*
+service/dist/*
