@@ -2,7 +2,7 @@
   "name": "service",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "license": "GPL2",
+  "license": "GPL-2.0-only",
   "scripts": {
     "start": "ts-node ./src/index.ts"
   },

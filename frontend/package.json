@@ -2,5 +2,5 @@
   "name": "frontend",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "license": "GPL2w"
+  "license": "GPL-2.0-only"
 }

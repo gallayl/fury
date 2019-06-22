@@ -5,7 +5,7 @@
   "main": "service/src/index.ts",
   "repository": "https://github.com/gallayl/fury.git",
   "author": "Gallay Lajos <gallay.lajos@gmail.com>",
-  "license": "GPL2",
+  "license": "GPL-2.0-only",
   "private": true,
   "workspaces": {
     "packages": [
