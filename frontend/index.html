@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139203068-1"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, minimum-scale=1.0, initial-scale=1.0, user-scalable=0"
+    />
+    <meta
+      name="description"
+      content="Fury Home App"
+    />
+    <title>Fury</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: #fff;
+      }
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: rgba(128, 128, 128, 0.3);
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+      /* Transition */
+
+      .fade-enter {
+        opacity: 0;
+        z-index: 1;
+      }
+
+      .fade-enter.fade-enter-active {
+        opacity: 1;
+        transition: opacity 250ms ease-in;
+      }
+    </style>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+    />
+    <script type="text/javascript">
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <div id="root"></div>
+  </body>
+</html>
