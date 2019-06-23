@@ -51,9 +51,9 @@
     semaphore-async-await "^1.5.1"
 
 "@furystack/http-api@^4.0.0":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@furystack/http-api/-/http-api-4.0.1.tgz#0536079bc1d75a959fa33e4564d6065726f75dd5"
-  integrity sha512-gGITrBad63tdfHiH8A5/25WuxkR6vr5FaV0jOb54s0RuzSxTRm/hPIMno/WCWdvMDXslZgaNaacV+ba+lps5ow==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@furystack/http-api/-/http-api-4.0.2.tgz#7e9276719f8784e4a3c7e55063b7bb98222cc0b9"
+  integrity sha512-fCZly9i1sK172K/g0fP6DJNiYAtwrZ5/yhAY9XW72VRxKmMhvBMgRwqt7nzXRPmmjS1S0yrxs0RJtNwvTJwTfg==
   dependencies:
     "@furystack/core" "^5.0.1"
     "@furystack/inject" "^4.0.1"
@@ -1913,9 +1913,9 @@ eslint-plugin-import@^2.17.3:
     resolve "^1.11.0"
 
 eslint-plugin-jsdoc@^8.0.0:
-  version "8.4.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-8.4.5.tgz#1ab9ae5d01083cea28e9a2bd3eaff671b92df1c0"
-  integrity sha512-6TgQ8hy49kEDF/jqjpgVFMMRP40C4XXlWEawXWJZJWNBKUsjTMqmlRINpf7b6ldjU4Fk4ZQ15KsWYpt4yM1iBw==
+  version "8.4.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-8.4.6.tgz#33338714632c8bd596cca63c3a9eb3728100f266"
+  integrity sha512-05qlilEFDADuhXUwIn2p7gH3JrbDj/GJqNNGrYWuaXMyiGS/2n4CzwV6R18cRFln6eZYb8OFKeEmwm/PYaNZAg==
   dependencies:
     comment-parser "^0.5.5"
     debug "^4.1.1"

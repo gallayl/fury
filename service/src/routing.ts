@@ -5,6 +5,7 @@ import { Constructable } from "@furystack/inject";
 import { GetSystemLoadAction } from "./actions/get-system-load";
 import { GetSystemDetailsAction } from "./actions/get-system-details";
 import { WakeOnLanAction } from "./actions/wake-on-lan";
+import { StreamVideoAction } from "./actions/stream-video";
 
 export const routing: (
   msg: IncomingMessage
@@ -20,6 +21,8 @@ export const routing: (
         return GetSystemLoadAction;
       case "/getSystemDetails":
         return GetSystemDetailsAction;
+      case "/video":
+        return StreamVideoAction;
       default:
         break;
     }

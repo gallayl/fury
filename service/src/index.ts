@@ -18,7 +18,12 @@ export const i = new Injector()
       })
     )
   )
-  .useHttpApi({})
+  .useHttpApi({
+    corsOptions: {
+      credentials: true,
+      origins: ["http://localhost:8080"]
+    }
+  })
   .useHttpAuthentication({
     getUserStore: sm => sm.getStoreFor(User)
   })
