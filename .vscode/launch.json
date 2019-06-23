@@ -8,10 +8,10 @@
       "name": "Service",
       "type": "node",
       "request": "launch",
-      "args": ["${workspaceRoot}\\service\\src\\index.ts"],
+      "args": ["${workspaceRoot}/service/src/index.ts"],
       "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
       "sourceMaps": true,
-      "cwd": "${workspaceRoot}",
+      "cwd": "${workspaceRoot}/service",
       "protocol": "inspector"
     },
     {

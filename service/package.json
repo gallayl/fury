@@ -17,6 +17,7 @@
     "@furystack/http-api": "^4.0.0",
     "@furystack/inject": "^4.0.0",
     "@furystack/logging": "^2.0.0",
+    "chokidar": "^3.0.1",
     "systeminformation": "^4.12.0",
     "wake_on_lan": "^1.0.0"
   }
