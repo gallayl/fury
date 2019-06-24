@@ -1,7 +1,6 @@
-import { HashRouter, Switch } from "react-router-dom";
-import { useContext } from "react";
+import { HashRouter } from "react-router-dom";
+import React, { useContext } from "react";
 import { SessionContext } from "./context/session-context";
-import React from "react";
 import { CurrentUser } from "./components/current-user";
 import { Login } from "./components/login";
 

@@ -1,8 +1,13 @@
-import React, { useEffect, useContext, useCallback } from "react";
-import { createContext, useState } from "react";
+import React, {
+  useEffect,
+  useContext,
+  useCallback,
+  createContext,
+  useState
+} from "react";
 import { User } from "../models/user";
-import { ServiceContext } from "./service-context";
 import { useLogger } from "../hooks/use-logger";
+import { ServiceContext } from "./service-context";
 
 export interface SessionContextValue {
   currentUser: User | undefined;
@@ -56,7 +61,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
         setCurrentUser(undefined);
       }
     })();
-  }, [serviceContext]);
+  }, [logger, serviceContext]);
 
   const login = useCallback(
     async (username: string, password: string) => {
@@ -89,7 +94,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
         });
       }
     },
-    [serviceContext]
+    [logger, serviceContext]
   );
   const logout = useCallback(async () => {
     try {
@@ -117,7 +122,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
     } finally {
       setCurrentUser(undefined);
     }
-  }, [serviceContext]);
+  }, [currentUser, logger, serviceContext]);
 
   return (
     <SessionContext.Provider
