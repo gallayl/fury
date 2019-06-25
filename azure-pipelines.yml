@@ -46,11 +46,22 @@ steps:
  #       testRunner: JUnit
  #       testResultsFiles: '$(System.DefaultWorkingDirectory)/coverage/junit.xml'
 
-  - script: yarn workspace frontend webpack
-    displayName: 'Webpack frontend build'
+  - script: yarn workspace @fury/frontend webpack
+    displayName: 'Webpack build'
 
   - task: PublishBuildArtifacts@1
     displayName: Publish frontend bundle
     inputs:
       pathtoPublish: '$(System.DefaultWorkingDirectory)/frontend/bundle'
       artifactName: frontend
+
+  - script: yarn install --production --ignore-scripts --prefer-offline
+    displayName: "Cleanup Service package"
+
+  - task: PublishBuildArtifacts@1
+    displayName: Publish Backend Service
+    inputs:
+      pathtoPublish: '$(System.DefaultWorkingDirectory)/service'
+      artifactName: service
+
+  
