@@ -1,8 +1,9 @@
 {
-  "name": "frontend",
+  "name": "@fury/frontend",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "GPL-2.0-only",
+  "private": true,
   "scripts": {
     "start": "webpack-dev-server --progress"
   },
