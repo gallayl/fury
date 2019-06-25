@@ -1,4 +1,4 @@
-var path = require("path");
+const path = require("path");
 // const webpack = require('webpack')
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -51,7 +51,7 @@ module.exports = {
       APP_VERSION: require("./package.json").version,
       GIT_COMMITHASH: gitRevisionPlugin.commithash(),
       GIT_BRANCH: gitRevisionPlugin.branch(),
-      APP_SERVICE_URL: "http://localhost:666"
+      APP_SERVICE_URL: "http://localhost:6666"
     })
   ],
   module: {

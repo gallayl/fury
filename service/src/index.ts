@@ -29,7 +29,7 @@ export const i = new Injector()
   })
   .useDefaultLoginRoutes()
   .addHttpRouting(routing)
-  .listenHttp({ port: 666 });
+  .listenHttp({ port: 6666 });
 
 seed(i);
 
