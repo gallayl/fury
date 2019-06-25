@@ -46,7 +46,7 @@ steps:
  #       testRunner: JUnit
  #       testResultsFiles: '$(System.DefaultWorkingDirectory)/coverage/junit.xml'
 
-  - script: yarn workspace @fury/frontend webpack
+  - script: yarn workspace @fury/frontend build
     displayName: 'Webpack build'
 
   - task: PublishBuildArtifacts@1
