@@ -48,3 +48,9 @@ steps:
 
   - script: yarn workspace frontend webpack
     displayName: 'Webpack frontend build'
+
+  - task: PublishBuildArtifacts@1
+    displayName: Publish frontend bundle
+    inputs:
+      pathtoPublish: '$(System.DefaultWorkingDirectory)/frontend/bundle'
+      artifactName: frontend
