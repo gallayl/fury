@@ -5,7 +5,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 variables:
-  - group: Default Variable Group
+  - group: Fury variables
 
 trigger:
   - master
