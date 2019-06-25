@@ -13,6 +13,8 @@
       "service"
     ],
     "nohoist": [
+      "!eslint*",
+      "!react*",
       "**/*"
     ]
   },
@@ -22,14 +24,15 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
+    "react": "^16.8.6",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-cypress": "^2.2.1",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsdoc": "^8.0.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
     "husky": "^2.4.0",
     "lint-staged": "^8.2.0",
     "prettier": "^1.18.0",

@@ -3,6 +3,9 @@ var path = require("path");
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TsConfigWebpackPlugin = require("ts-config-webpack-plugin");
+const GitRevisionPlugin = require("git-revision-webpack-plugin");
+const webpack = require("webpack");
+const gitRevisionPlugin = new GitRevisionPlugin();
 
 module.exports = {
   mode: "development",
@@ -40,6 +43,15 @@ module.exports = {
     new TsConfigWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./index.html"
+    }),
+    new webpack.EnvironmentPlugin({
+      NODE_ENV: "development",
+      DEBUG: true,
+      GIT_VERSION: gitRevisionPlugin.version(),
+      APP_VERSION: require("./package.json").version,
+      GIT_COMMITHASH: gitRevisionPlugin.commithash(),
+      GIT_BRANCH: gitRevisionPlugin.branch(),
+      APP_SERVICE_URL: "http://localhost:666"
     })
   ],
   module: {
