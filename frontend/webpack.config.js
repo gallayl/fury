@@ -51,7 +51,7 @@ module.exports = {
       APP_VERSION: require("./package.json").version,
       GIT_COMMITHASH: gitRevisionPlugin.commithash(),
       GIT_BRANCH: gitRevisionPlugin.branch(),
-      APP_SERVICE_URL: "http://localhost:6666"
+      APP_SERVICE_URL: "http://localhost:9090"
     })
   ],
   module: {
