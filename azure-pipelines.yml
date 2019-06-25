@@ -50,7 +50,7 @@ steps:
     displayName: 'Webpack build'
 
   - task: PublishBuildArtifacts@1
-    displayName: Publish frontend bundle
+    displayName: Publish frontend bundle artifacts
     inputs:
       pathtoPublish: '$(System.DefaultWorkingDirectory)/frontend/bundle'
       artifactName: frontend
@@ -59,7 +59,7 @@ steps:
     displayName: "Cleanup Service package"
 
   - task: PublishBuildArtifacts@1
-    displayName: Publish Backend Service
+    displayName: Publish Backend Service artifacts
     inputs:
       pathtoPublish: '$(System.DefaultWorkingDirectory)/service'
       artifactName: service
