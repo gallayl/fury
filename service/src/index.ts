@@ -29,7 +29,9 @@ export const i = new Injector()
   })
   .useDefaultLoginRoutes()
   .addHttpRouting(routing)
-  .listenHttp({ port: 9090 });
+  .listenHttp({
+    port: parseInt(process.env.APP_SERVICE_PORT as string, 10) || 9090
+  });
 
 seed(i);
 
