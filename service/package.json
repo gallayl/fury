@@ -13,13 +13,13 @@
     "ts-node": "^8.3.0"
   },
   "dependencies": {
-    "@furystack/auth-google": "3.0.0",
-    "@furystack/core": "^5.0.0",
-    "@furystack/http-api": "^4.0.0",
-    "@furystack/inject": "^4.0.0",
-    "@furystack/logging": "^2.0.0",
+    "@furystack/auth-google": "^3.0.4",
+    "@furystack/core": "^5.1.0",
+    "@furystack/http-api": "^4.0.4",
+    "@furystack/inject": "^4.0.1",
+    "@furystack/logging": "^2.0.1",
     "chokidar": "^3.0.1",
-    "systeminformation": "^4.12.0",
+    "systeminformation": "^4.12.2",
     "tslib": "^1.10.0",
     "wake_on_lan": "^1.0.0"
   }
