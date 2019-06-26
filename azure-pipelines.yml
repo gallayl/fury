@@ -22,22 +22,8 @@ steps:
       versionSpec: '12.x'
     displayName: 'Install Node.js'
 
-  - task: RestoreCache@1
-    displayName: Restore Cache
-    inputs:
-      keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
-      targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: ${YarnPackageCacheArtifactFeed}
-
   - script: yarn install
     displayName: 'Yarn install'
-
-  - task: SaveCache@1
-    displayName: Save Cache
-    inputs:
-      keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
-      targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: ${YarnPackageCacheArtifactFeed}
 
   - script: yarn build
     displayName: 'Yarn build'
