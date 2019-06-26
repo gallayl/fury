@@ -24,6 +24,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
+    "concurrently": "^4.1.1",
     "react": "^16.8.6",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
@@ -62,6 +63,7 @@
   },
   "scripts": {
     "build": "tsc -b",
+    "start": "concurrently --kill-others \"yarn workspace @fury/service start\" \"yarn workspace @fury/frontend start --env.APP_SERVICE_URL=http://localhost:9090\"  ",
     "clean": "rimraf service/dist frontend/dist **/tsconfig.tsbuildinfo tsconfig.tsbuildinfo",
     "lint": "eslint . --ext .tsx,.ts --cache"
   }
