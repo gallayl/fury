@@ -27,7 +27,7 @@ steps:
     inputs:
       keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
       targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: '$(YarnPackageCacheArtifactFeed)'
+      vstsFeed: ${YarnPackageCacheArtifactFeed}
 
   - script: yarn install
     displayName: 'Yarn install'
@@ -37,7 +37,7 @@ steps:
     inputs:
       keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
       targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: '$(YarnPackageCacheArtifactFeed)'
+      vstsFeed: ${YarnPackageCacheArtifactFeed}
 
   - script: yarn build
     displayName: 'Yarn build'
