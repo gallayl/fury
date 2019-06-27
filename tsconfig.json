@@ -62,5 +62,5 @@
   },
   "files": [],
   "include": [],
-  "references": [{ "path": "./service" }]
+  "references": [{ "path": "./frontend" }, { "path": "./service" }]
 }
