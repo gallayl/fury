@@ -14,13 +14,20 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+
   - task: NodeTool@0
     inputs:
       versionSpec: '12.x'
     displayName: 'Install Node.js'
 
+  - restoreCache: YarnCache
+    path: $(System.DefaultWorkingDirectory)/node_modules
+
   - script: yarn install
     displayName: 'Yarn install'
+
+  - saveCache: YarnCache
+    path: $(System.DefaultWorkingDirectory)/node_modules
 
   - script: yarn build
     displayName: 'Yarn build'
