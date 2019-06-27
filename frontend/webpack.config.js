@@ -4,6 +4,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TsConfigWebpackPlugin = require("ts-config-webpack-plugin");
 const GitRevisionPlugin = require("git-revision-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
+
 const webpack = require("webpack");
 const gitRevisionPlugin = new GitRevisionPlugin();
 
@@ -52,7 +54,8 @@ module.exports = env => ({
       GIT_COMMITHASH: gitRevisionPlugin.commithash(),
       GIT_BRANCH: gitRevisionPlugin.branch(),
       APP_SERVICE_URL: (env && env.APP_SERVICE_URL) || ""
-    })
+    }),
+    new CopyPlugin([{ from: "./static", to: "./" }])
   ],
   module: {
     rules: [
