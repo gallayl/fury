@@ -7,7 +7,7 @@ const GitRevisionPlugin = require("git-revision-webpack-plugin");
 const webpack = require("webpack");
 const gitRevisionPlugin = new GitRevisionPlugin();
 
-module.exports = {
+module.exports = env => ({
   mode: "development",
   entry: "./src/index.tsx",
   output: {
@@ -51,7 +51,7 @@ module.exports = {
       APP_VERSION: require("./package.json").version,
       GIT_COMMITHASH: gitRevisionPlugin.commithash(),
       GIT_BRANCH: gitRevisionPlugin.branch(),
-      APP_SERVICE_URL: ""
+      APP_SERVICE_URL: (env && env.APP_SERVICE_URL) || ""
     })
   ],
   module: {
@@ -77,4 +77,4 @@ module.exports = {
       }
     ]
   }
-};
+});
