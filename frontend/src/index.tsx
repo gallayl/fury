@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { ThemeProvider } from "@material-ui/styles";
 import { SessionContextProvider } from "./context/session-context";
 import { MainRouter } from "./main-router";
+import { ThemeContext } from "./context/theme-context";
 
 console.log(
   `%cFury app v${process.env.APP_VERSION}
@@ -14,7 +16,13 @@ AppService ${process.env.APP_SERVICE_URL}
 
 ReactDOM.render(
   <SessionContextProvider>
-    <MainRouter />
+    <ThemeContext.Consumer>
+      {theme => (
+        <ThemeProvider theme={theme}>
+          <MainRouter />
+        </ThemeProvider>
+      )}
+    </ThemeContext.Consumer>
   </SessionContextProvider>,
   document.getElementById("root")
 );

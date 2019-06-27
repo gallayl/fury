@@ -13,6 +13,7 @@ export interface SessionContextValue {
   currentUser: User | undefined;
   logout: () => Promise<void>;
   login: (username: string, password: string) => Promise<void>;
+  isLoggedIn: boolean;
 }
 
 export const SessionContext = createContext<SessionContextValue>({
@@ -22,12 +23,22 @@ export const SessionContext = createContext<SessionContextValue>({
   },
   logout: async () => {
     throw Error("CurrentUserContext not initialized!");
-  }
+  },
+  isLoggedIn: false
 });
 
 export const SessionContextProvider: React.FunctionComponent = props => {
   const [currentUser, setCurrentUser] = useState<User | undefined>(undefined);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const serviceContext = useContext(ServiceContext);
+
+  useEffect(() => {
+    if (!currentUser || currentUser.username === "Visitor") {
+      setIsLoggedIn(false);
+    } else {
+      setIsLoggedIn(true);
+    }
+  }, [currentUser]);
 
   const logger = useLogger("SessionContextProvider");
 
@@ -73,7 +84,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
           body: JSON.stringify({ username, password })
         });
         if (result.ok) {
-          const json = await result.json();
+          const json: User = await result.json();
           setCurrentUser(json);
           logger.information({
             message: "Logged in",
@@ -129,7 +140,8 @@ export const SessionContextProvider: React.FunctionComponent = props => {
       value={{
         currentUser,
         login,
-        logout
+        logout,
+        isLoggedIn
       }}
     >
       {props.children}
