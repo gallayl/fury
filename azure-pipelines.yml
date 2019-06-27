@@ -4,9 +4,6 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
-variables:
-  - group: Fury variables
-
 trigger:
   - master
   - develop
@@ -50,19 +47,33 @@ steps:
   - script: yarn workspace @fury/frontend build
     displayName: 'Webpack build'
 
+  - task: ArchiveFiles@1
+    displayName: Compress frontend artifacts
+    inputs:
+      archiveFile: $(System.DefaultWorkingDirectory)/frontend.zip
+      rootFolder: '$(System.DefaultWorkingDirectory)/frontend/bundle/assets'
+      includeRootFolder: false
+
   - task: PublishBuildArtifacts@1
     displayName: Publish frontend bundle artifacts
     inputs:
-      pathtoPublish: '$(System.DefaultWorkingDirectory)/frontend/bundle'
+      pathtoPublish: '$(System.DefaultWorkingDirectory)/frontend.zip'
       artifactName: frontend
 
   - script: yarn install --production --ignore-scripts --prefer-offline
     displayName: "Cleanup Service package"
 
+  - task: ArchiveFiles@1
+    displayName: Compress service artifacts
+    inputs:
+      archiveFile: $(System.DefaultWorkingDirectory)/service.zip
+      rootFolder: $(System.DefaultWorkingDirectory)/service
+      includeRootFolder: false
+
   - task: PublishBuildArtifacts@1
     displayName: Publish Backend Service artifacts
     inputs:
-      pathtoPublish: '$(System.DefaultWorkingDirectory)/service'
+      pathtoPublish: '$(System.DefaultWorkingDirectory)/service.zip'
       artifactName: service
 
   
