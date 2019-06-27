@@ -15,9 +15,9 @@ export const MainRouter: React.FunctionComponent = () => {
         width: "100%",
         height: "100%",
         backgroundColor: theme.palette.background.default,
-        // backgroundImage: `url(${furyLogo})`,
-        // backgroundPosition: "center",
-        // backgroundRepeat: "no-repeat",
+        backgroundImage: `url(/fury_background.png)`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
         overflow: "hidden"
       }}
     >
