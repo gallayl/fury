@@ -6,6 +6,6 @@
     "jsx": "react",
     "skipLibCheck": true
   },
-  "include": ["src", "../typings"],
+  "include": ["src"],
   "references": [{ "path": "../service" }]
 }
