@@ -6,6 +6,7 @@ import { GetSystemLoadAction } from "./actions/get-system-load";
 import { GetSystemDetailsAction } from "./actions/get-system-details";
 import { WakeOnLanAction } from "./actions/wake-on-lan";
 import { StreamVideoAction } from "./actions/stream-video";
+import { GetReleaseInfoAction } from "./actions/get-release-info";
 
 export const routing: (
   msg: IncomingMessage
@@ -23,6 +24,8 @@ export const routing: (
         return GetSystemDetailsAction;
       case "/video":
         return StreamVideoAction;
+      case "/releaseInto":
+        return GetReleaseInfoAction;
       default:
         break;
     }

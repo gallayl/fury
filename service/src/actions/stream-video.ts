@@ -1,21 +1,13 @@
 import { ServerResponse, IncomingMessage } from "http";
 import { existsSync, statSync, createReadStream } from "fs";
 import { parse } from "url";
-import { RequestAction, HttpUserContext } from "@furystack/http-api";
-import { Injectable } from "@furystack/inject";
+import { RequestAction, Authenticate } from "@furystack/http-api";
+import { Injectable, Injector } from "@furystack/inject";
 
 @Injectable()
+@Authenticate()
 export class StreamVideoAction implements RequestAction {
   public async exec(): Promise<void> {
-    if (
-      (await this.userContext.getCurrentUser()) ===
-      this.userContext.authentication.visitorUser
-    ) {
-      this.response.writeHead(401, "Unauthorized");
-      this.response.end(JSON.stringify({ error: "unauthorized" }));
-      return;
-    }
-
     const videoPath = parse(
       this.request.url || "?video=",
       true
@@ -63,8 +55,8 @@ export class StreamVideoAction implements RequestAction {
   }
 
   constructor(
-    private readonly userContext: HttpUserContext,
     private readonly request: IncomingMessage,
-    private readonly response: ServerResponse
+    private readonly response: ServerResponse,
+    public readonly injector: Injector
   ) {}
 }

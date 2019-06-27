@@ -31,12 +31,12 @@
   integrity sha512-RMtr1i6E8MXaBWwhXL3yeOU8JXRnz8GNxHvaUfVvwxokvayUY0zoBeWbKw1S9XkufmGEEdQd228pSZXFkAln8Q==
 
 "@furystack/auth-google@^3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@furystack/auth-google/-/auth-google-3.0.4.tgz#88d657abe96b7ea020978548eb01149bd45666cf"
-  integrity sha512-YVjP+tOcAtX5lWhi6k+jtPhW/kwHlilI6f2UYIxoqfJtdlvfj7Gw8iAPwM9OryCMAQLvqqK9T9BlW0O/pN6DUw==
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@furystack/auth-google/-/auth-google-3.0.6.tgz#a4311c253d5e9cba67d4e13ce8a214314e6a286b"
+  integrity sha512-l/pQVDPx6lV437LxlhSHukhqR9mx3MO/UsmfD3IVg79D53qOhv6ZMlse3bhtNldJBbRFpDZ2KSQ6ZzR7W3LTSw==
   dependencies:
     "@furystack/core" "^5.1.0"
-    "@furystack/http-api" "^4.0.4"
+    "@furystack/http-api" "^4.2.0"
     "@furystack/inject" "^4.0.1"
     "@sensenet/client-utils" "^1.5.1"
 
@@ -50,10 +50,10 @@
     "@sensenet/client-utils" "^1.5.1"
     semaphore-async-await "^1.5.1"
 
-"@furystack/http-api@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@furystack/http-api/-/http-api-4.0.4.tgz#457f114da83a5688eccf7a38b5915137199a2e2d"
-  integrity sha512-stEpoZHsezpTErkkbI6ZeSF+ac2sfZfqE4UY5ONT1L11LfiVMtr2F7Ac8EwxasJCCkzSd3Vh++u90z24/K8ImQ==
+"@furystack/http-api@^4.0.4", "@furystack/http-api@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@furystack/http-api/-/http-api-4.2.0.tgz#6588171f2d82dda5f98d1e069dab781f8793cb19"
+  integrity sha512-2uDjTLDdBnrVI5xThCfFAzPRe1skKuXctK3LTWIFaZRdl63LQ3u0/1nKdeWMAPNMQpMXkWRFubQ4pcpo5hgExQ==
   dependencies:
     "@furystack/core" "^5.1.0"
     "@furystack/inject" "^4.0.1"
@@ -1917,10 +1917,10 @@ eslint-plugin-import@^2.18.0:
     read-pkg-up "^2.0.0"
     resolve "^1.11.0"
 
-eslint-plugin-jsdoc@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-8.7.0.tgz#ef61bb7966138576b23aacf249e958e9a0a012ff"
-  integrity sha512-4UzO2Yw+5s1DOfQCTaasUx8Ng/h6/nTtrO3gGiCD086pOAcDFkbVHKdGrGnGuXd90MPDE9bHD92xJ5ke3cMrRA==
+eslint-plugin-jsdoc@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-9.0.1.tgz#9fb1fc09a623a0990369e406eb897a89c6bfa5c0"
+  integrity sha512-4Sd6rjpMJ5YOd2WnCcgWW7K/EIawKKYgn4ObtDG0pyDP+QpN9EyRoPvY62IQtUOz5KkAS/EpFvEIMUo3qUyeyQ==
   dependencies:
     comment-parser "^0.5.5"
     debug "^4.1.1"

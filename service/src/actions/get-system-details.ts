@@ -1,23 +1,14 @@
 import { ServerResponse } from "http";
 import { platform, type, release, hostname } from "os";
 import { cpu } from "systeminformation";
-import { RequestAction, HttpUserContext } from "@furystack/http-api";
-import { Injectable } from "@furystack/inject";
+import { Authenticate, RequestAction } from "@furystack/http-api";
+import { Injectable, Injector } from "@furystack/inject";
 
 @Injectable()
+@Authenticate()
 export class GetSystemDetailsAction implements RequestAction {
   public async exec(): Promise<void> {
-    if (
-      (await this.userContext.getCurrentUser()) ===
-      this.userContext.authentication.visitorUser
-    ) {
-      this.response.writeHead(401, "Unauthorized");
-      this.response.end(JSON.stringify({ error: "unauthorized" }));
-      return;
-    }
-
     const cpuValue = await new Promise(resolve => cpu(resolve));
-
     const responseBody = {
       platform: platform(),
       osType: type(),
@@ -26,18 +17,14 @@ export class GetSystemDetailsAction implements RequestAction {
       hostname: hostname()
     };
 
-    this.response.writeHead(200, {
-      "Content-Type": "application/json"
-    });
-    this.response.write(JSON.stringify(responseBody));
-    this.response.end();
+    this.response.sendJson({ json: responseBody });
   }
   public dispose() {
     /** */
   }
 
   constructor(
-    private readonly userContext: HttpUserContext,
+    public injector: Injector,
     private readonly response: ServerResponse
   ) {}
 }
