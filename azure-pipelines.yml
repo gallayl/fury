@@ -50,7 +50,7 @@ steps:
   - task: ArchiveFiles@1
     displayName: Compress frontend artifacts
     inputs:
-      archiveFile: $(System.DefaultWorkingDirectory)/frontend/frontend.zip
+      archiveFile: $(System.DefaultWorkingDirectory)/frontend.zip
       rootFolder: '$(System.DefaultWorkingDirectory)/frontend/bundle/assets'
       includeRootFolder: false
 
@@ -66,7 +66,7 @@ steps:
   - task: ArchiveFiles@1
     displayName: Compress service artifacts
     inputs:
-      archiveFile: $(System.DefaultWorkingDirectory)/service/service.zip
+      archiveFile: $(System.DefaultWorkingDirectory)/service.zip
       rootFolder: $(System.DefaultWorkingDirectory)/service
       includeRootFolder: false
 
