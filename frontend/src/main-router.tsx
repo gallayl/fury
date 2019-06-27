@@ -3,7 +3,6 @@ import React, { useContext } from "react";
 import { SessionContext } from "./context/session-context";
 import { CurrentUser } from "./components/current-user";
 import { Login } from "./components/login";
-import furyLogo from "./assets/fury_bg.png";
 import { useTheme } from "./hooks/use-theme";
 
 export const MainRouter: React.FunctionComponent = () => {
@@ -16,9 +15,9 @@ export const MainRouter: React.FunctionComponent = () => {
         width: "100%",
         height: "100%",
         backgroundColor: theme.palette.background.default,
-        backgroundImage: `url(${furyLogo})`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
+        // backgroundImage: `url(${furyLogo})`,
+        // backgroundPosition: "center",
+        // backgroundRepeat: "no-repeat",
         overflow: "hidden"
       }}
     >
