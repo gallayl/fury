@@ -24,7 +24,7 @@ export const routing: (
         return GetSystemDetailsAction;
       case "/video":
         return StreamVideoAction;
-      case "/releaseInto":
+      case "/releaseInfo":
         return GetReleaseInfoAction;
       default:
         break;

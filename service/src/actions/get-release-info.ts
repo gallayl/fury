@@ -11,16 +11,17 @@ export class GetReleaseInfoAction implements RequestAction {
       const responseBody = await import(
         join(process.cwd(), "releaseinfo.json")
       );
-      this.response.writeHead(200, {
-        "Content-Type": "application/json"
+      this.response.sendJson({
+        json: responseBody
       });
-      this.response.end(responseBody);
     } catch (error) {
       this.response.sendJson({
         statusCode: 500,
         json: {
           message: "There was an error while reading the release info",
-          error
+          error: {
+            message: error.message
+          }
         }
       });
     }
