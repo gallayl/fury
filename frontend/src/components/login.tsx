@@ -17,7 +17,7 @@ export const Login: React.FunctionComponent = () => {
       }}
     >
       <Paper>
-        <form style={{ margin: "1em" }}>
+        <form style={{ margin: "1em" }} onSubmit={ev => ev.preventDefault()}>
           <TextField
             required
             type="text"

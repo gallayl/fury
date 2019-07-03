@@ -1,9 +1,12 @@
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import React, { useContext } from "react";
+import { Switch } from "react-router";
 import { SessionContext } from "./context/session-context";
-import { CurrentUser } from "./components/current-user";
 import { Login } from "./components/login";
 import { useTheme } from "./hooks/use-theme";
+import { Home } from "./pages/home";
+import { FuryAppBar } from "./components/app-bar";
+import { Status } from "./pages/status";
 
 export const MainRouter: React.FunctionComponent = () => {
   const session = useContext(SessionContext);
@@ -21,9 +24,30 @@ export const MainRouter: React.FunctionComponent = () => {
         overflow: "hidden"
       }}
     >
-      <HashRouter>
-        {session.isLoggedIn ? <CurrentUser /> : <Login />}
-      </HashRouter>
+      {session.isLoggedIn ? (
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            overflow: "hidden"
+          }}
+        >
+          <FuryAppBar />
+          <HashRouter>
+            <Switch>
+              <Route path="/status" exact>
+                <Status />
+              </Route>
+
+              <Route path="">
+                <Home />
+              </Route>
+            </Switch>
+          </HashRouter>
+        </div>
+      ) : (
+        <Login />
+      )}
     </div>
   );
 };

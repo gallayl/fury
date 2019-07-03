@@ -1,6 +1,6 @@
 import { ServerResponse } from "http";
 import { platform, type, release, hostname } from "os";
-import { cpu } from "systeminformation";
+import { cpu, mem, diskLayout, fsSize } from "systeminformation";
 import { Authenticate, RequestAction } from "@furystack/http-api";
 import { Injectable, Injector } from "@furystack/inject";
 
@@ -8,13 +8,24 @@ import { Injectable, Injector } from "@furystack/inject";
 @Authenticate()
 export class GetSystemDetailsAction implements RequestAction {
   public async exec(): Promise<void> {
-    const cpuValue = await new Promise(resolve => cpu(resolve));
+    // const cpuValue = await new Promise(resolve => cpu(resolve));
+
+    const [
+      cpuValue,
+      memValue,
+      diskLayoutValue,
+      fsSizeValue
+    ] = await Promise.all([cpu(), mem(), diskLayout(), fsSize()]);
+
     const responseBody = {
       platform: platform(),
       osType: type(),
       osRelease: release(),
       cpu: cpuValue,
-      hostname: hostname()
+      hostname: hostname(),
+      mem: memValue,
+      diskLayout: diskLayoutValue,
+      fsSize: fsSizeValue
     };
 
     this.response.sendJson({ json: responseBody });

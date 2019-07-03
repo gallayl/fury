@@ -45,11 +45,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
   useEffect(() => {
     (async () => {
       try {
-        const result = await fetch(`${serviceContext}/currentUser`, {
-          credentials: "include",
-          mode: "cors",
-          method: "get"
-        });
+        const result = await serviceContext.fetch(`/currentUser`);
         if (result.ok) {
           const json = await result.json();
           setCurrentUser(json);
@@ -77,10 +73,8 @@ export const SessionContextProvider: React.FunctionComponent = props => {
   const login = useCallback(
     async (username: string, password: string) => {
       try {
-        const result = await fetch(`${serviceContext}/login`, {
+        const result = await serviceContext.fetch(`/login`, {
           method: "POST",
-          credentials: "include",
-          mode: "cors",
           body: JSON.stringify({ username, password })
         });
         if (result.ok) {
