@@ -18,7 +18,9 @@
     "@furystack/http-api": "^4.0.4",
     "@furystack/inject": "^4.0.1",
     "@furystack/logging": "^2.0.1",
+    "@furystack/mongodb-store": "^1.1.5",
     "chokidar": "^3.0.1",
+    "mongodb": "^3.2.7",
     "systeminformation": "^4.12.2",
     "tslib": "^1.10.0",
     "wake_on_lan": "^1.0.0"

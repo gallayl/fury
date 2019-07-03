@@ -2,19 +2,23 @@ import { join } from "path";
 import { Injector } from "@furystack/inject";
 import { ConsoleLogger } from "@furystack/logging";
 import "@furystack/http-api";
-import { InMemoryStore } from "@furystack/core";
+import "@furystack/mongodb-store";
+import { FileStore } from "@furystack/core";
 import { routing } from "./routing";
 import { seed } from "./seed";
 import { User } from "./models";
 import { FileSystemWatcherService } from "./services/filesystem-watcher";
+import { Session } from "./models/session";
 
 export const i = new Injector()
   .useLogging(ConsoleLogger)
   .setupStores(stores =>
-    stores.addStore(
-      new InMemoryStore({
-        model: User,
-        primaryKey: "username"
+    stores.useMongoDb(User, "mongodb://localhost", "Fury", "users").addStore(
+      new FileStore({
+        model: Session,
+        fileName: join(process.cwd(), "sessions.json"),
+        primaryKey: "sessionId",
+        logger: stores.injector.logger
       })
     )
   )
@@ -25,7 +29,8 @@ export const i = new Injector()
     }
   })
   .useHttpAuthentication({
-    getUserStore: sm => sm.getStoreFor(User)
+    getUserStore: sm => sm.getStoreFor(User),
+    getSessionStore: sm => sm.getStoreFor(Session)
   })
   .useDefaultLoginRoutes()
   .addHttpRouting(routing)

@@ -103,7 +103,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
   );
   const logout = useCallback(async () => {
     try {
-      const result = await fetch(`${serviceContext}/logout`, {
+      const result = await serviceContext.fetch(`/logout`, {
         method: "POST",
         credentials: "include",
         mode: "cors"
