@@ -1,37 +1,19 @@
-import { ServerResponse } from "http";
 import { join } from "path";
-import { RequestAction, Authenticate } from "@furystack/http-api";
-import { Injectable, Injector } from "@furystack/inject";
+import { RequestAction, JsonResult } from "@furystack/http-api";
 
-@Injectable()
-@Authenticate()
-export class GetReleaseInfoAction implements RequestAction {
-  public async exec(): Promise<void> {
-    try {
-      const responseBody = await import(
-        join(process.cwd(), "releaseinfo.json")
-      );
-      this.response.sendJson({
-        json: responseBody
-      });
-    } catch (error) {
-      this.response.sendJson({
-        statusCode: 500,
-        json: {
-          message: "There was an error while reading the release info",
-          error: {
-            message: error.message
-          }
+export const GetReleaseInfoAction: RequestAction = async () => {
+  try {
+    const responseBody = await import(join(process.cwd(), "releaseinfo.json"));
+    return JsonResult(responseBody);
+  } catch (error) {
+    return JsonResult(
+      {
+        message: "There was an error while reading the release info",
+        error: {
+          message: error.message
         }
-      });
-    }
+      },
+      500
+    );
   }
-  public dispose() {
-    /** */
-  }
-
-  constructor(
-    public readonly injector: Injector,
-    private readonly response: ServerResponse
-  ) {}
-}
+};

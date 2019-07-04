@@ -7,6 +7,7 @@ import { useTheme } from "./hooks/use-theme";
 import { Home } from "./pages/home";
 import { FuryAppBar } from "./components/app-bar";
 import { Status } from "./pages/status";
+import { ServiceContext } from "./context/service-context";
 
 export const MainRouter: React.FunctionComponent = () => {
   const session = useContext(SessionContext);
@@ -38,7 +39,20 @@ export const MainRouter: React.FunctionComponent = () => {
               <Route path="/status" exact>
                 <Status />
               </Route>
-
+              <Route path="/secret" exact>
+                <ServiceContext.Consumer>
+                  {service => (
+                    <video id="videoPlayer" controls>
+                      <source
+                        src={`${service.url}/video?video=${encodeURIComponent(
+                          "f:\\Filmek\\Star Wars\\Star.Wars.Episode.III.Revenge.of.the.Sith.2005.720p.BluRay.DTS-ES.x264.Hun-rB\\Star.Wars.Episode.III.Revenge.of.the.Sith.2005.720p.BluRay.DTS-ES.x264.Hun-rB.mkv"
+                        )}`}
+                        type="video/mp4"
+                      />
+                    </video>
+                  )}
+                </ServiceContext.Consumer>
+              </Route>
               <Route path="">
                 <Home />
               </Route>

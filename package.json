@@ -19,7 +19,7 @@
     ]
   },
   "dependencies": {
-    "tslib": "^1.9.3"
+    "tslib": "^1.10.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.11.0",

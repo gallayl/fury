@@ -1,16 +1,14 @@
 import { parse } from "url";
-import { IncomingMessage } from "http";
-import { RequestAction } from "@furystack/http-api";
-import { Constructable } from "@furystack/inject";
+import { RouteModel } from "@furystack/http-api";
 import { GetSystemLoadAction } from "./actions/get-system-load";
 import { GetSystemDetailsAction } from "./actions/get-system-details";
 import { WakeOnLanAction } from "./actions/wake-on-lan";
 import { StreamVideoAction } from "./actions/stream-video";
 import { GetReleaseInfoAction } from "./actions/get-release-info";
 
-export const routing: (
-  msg: IncomingMessage
-) => Constructable<RequestAction> | undefined = (msg: IncomingMessage) => {
+export const routing: RouteModel = injector => {
+  const msg = injector.getRequest();
+
   const urlPathName = parse(msg.url || "", true).pathname;
 
   /**

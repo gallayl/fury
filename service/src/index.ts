@@ -6,9 +6,9 @@ import "@furystack/mongodb-store";
 import { FileStore } from "@furystack/core";
 import { routing } from "./routing";
 import { seed } from "./seed";
-import { User } from "./models";
+import { User, Session } from "./models";
 import { FileSystemWatcherService } from "./services/filesystem-watcher";
-import { Session } from "./models/session";
+import { registerExitHandler } from "./exitHandler";
 
 export const i = new Injector()
   .useLogging(ConsoleLogger)
@@ -18,7 +18,8 @@ export const i = new Injector()
         model: Session,
         fileName: join(process.cwd(), "sessions.json"),
         primaryKey: "sessionId",
-        logger: stores.injector.logger
+        logger: stores.injector.logger,
+        tickMs: 1000 * 60 * 10
       })
     )
   )
@@ -37,6 +38,8 @@ export const i = new Injector()
   .listenHttp({
     port: parseInt(process.env.APP_SERVICE_PORT as string, 10) || 9090
   });
+
+registerExitHandler(i);
 
 seed(i);
 
