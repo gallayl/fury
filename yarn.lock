@@ -182,6 +182,13 @@
   resolved "https://registry.yarnpkg.com/@sensenet/client-utils/-/client-utils-1.6.2.tgz#72a3b6e3866e9f80ca06eebec68b9852d53004dd"
   integrity sha512-Um57eERYjyg4qLMNDGH/2AiUmHb+WnWAxMBTF/FVqArtwlBhtLoeRKvC5RIOfpjAjJOEWHgPAcMQ0ZVCmlnEfw==
 
+"@types/bson@*":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/bson/-/bson-4.0.0.tgz#9073772679d749116eb1dfca56f8eaac6d59cc7a"
+  integrity sha512-pq/rqJwJWkbS10crsG5bgnrisL8pML79KlMKQMoQwLUjlPAkrUHMvHJ3oGwE7WHR61Lv/nadMwXVAD2b+fpD8Q==
+  dependencies:
+    "@types/node" "*"
+
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
@@ -210,6 +217,15 @@
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
+
+"@types/mongodb@3.0.17":
+  version "3.0.17"
+  resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-3.0.17.tgz#942832f31d2451b0f54d9aeb449257abc9b74eb7"
+  integrity sha512-G2cE4c+6+zvbWos+VbEiOdlr6sqbyrvuRmUHGAQGSkLvs+P/omIBV8FvfFTnAQW8/Op1kqXJUnK8mXSm3Dnnjg==
+  dependencies:
+    "@types/bson" "*"
+    "@types/events" "*"
+    "@types/node" "*"
 
 "@types/node@*", "@types/node@^12.0.7":
   version "12.0.12"
