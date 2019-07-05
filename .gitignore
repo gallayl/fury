@@ -64,5 +64,4 @@ dist
 *.tsbuildinfo
 frontend/bundle
 
-service/users.json
-service/session.json
+service/data.sqlite

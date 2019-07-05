@@ -1,6 +1,7 @@
 import { PhysicalStore, StoreManager, SearchOptions } from "@furystack/core";
 import { HttpAuthenticationSettings } from "@furystack/http-api";
 import { Injector } from "@furystack/inject";
+import { TypeOrmStore } from "@furystack/typeorm-store";
 import { User } from "./models";
 
 /**
@@ -43,7 +44,7 @@ export const seed = async (injector: Injector) => {
   const logger = injector.logger.withScope("seeder");
   logger.verbose({ message: "Seeding data..." });
   const sm = injector.getInstance(StoreManager);
-  const userStore = sm.getStoreFor(User);
+  const userStore = sm.getStoreFor<User, TypeOrmStore<User>>(User);
   await getOrCreate(
     { filter: { username: "testuser" } },
     {
@@ -53,7 +54,7 @@ export const seed = async (injector: Injector) => {
         .hashMethod("password"),
       roles: []
     } as any,
-    userStore,
+    userStore as PhysicalStore<User>,
     injector
   );
 

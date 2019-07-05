@@ -1,19 +1,19 @@
 import { join } from "path";
 import { Injector } from "@furystack/inject";
-import { ConsoleLogger } from "@furystack/logging";
+import { VerboseConsoleLogger } from "@furystack/logging";
 import {
   LoginAction,
   LogoutAction,
   GetCurrentUser,
   HttpUserContext
 } from "@furystack/http-api";
-import { FileStore } from "@furystack/core";
+import "@furystack/typeorm-store";
 import { EdmType } from "@furystack/odata";
 import { DataSetSettings } from "@furystack/repository";
 import { routing } from "./routing";
 import { seed } from "./seed";
 import { User, Session } from "./models";
-import { FileSystemWatcherService } from "./services/filesystem-watcher";
+// import { FileSystemWatcherService } from "./services/filesystem-watcher";
 import { registerExitHandler } from "./exitHandler";
 import { I2CStore, I2CDevice } from "./services/i2c-store";
 
@@ -36,27 +36,18 @@ export const authorizedDataSet: Partial<DataSetSettings<any>> = {
 };
 
 export const i = new Injector()
-  .useLogging(ConsoleLogger)
+  .useLogging(VerboseConsoleLogger)
+  .useTypeOrm({
+    type: "sqlite",
+    database: join(process.cwd(), "data.sqlite"),
+    entities: [User, Session],
+    logging: true,
+    synchronize: true
+  })
   .setupStores(stores =>
     stores
-      .addStore(
-        new FileStore({
-          model: User,
-          fileName: join(process.cwd(), "users.json"),
-          primaryKey: "username",
-          logger: stores.injector.logger,
-          tickMs: 1000 * 60 * 10
-        })
-      ) // User, "mongodb://localhost", "Fury", "users")
-      .addStore(
-        new FileStore({
-          model: Session,
-          fileName: join(process.cwd(), "sessions.json"),
-          primaryKey: "sessionId",
-          logger: stores.injector.logger,
-          tickMs: 1000 * 60 * 10
-        })
-      )
+      .useTypeOrmStore(User)
+      .useTypeOrmStore(Session)
       .addStore(new I2CStore(stores.injector))
   )
   .useHttpApi({
@@ -139,11 +130,11 @@ registerExitHandler(i);
 
 seed(i);
 
-i.getInstance(FileSystemWatcherService)
-  .watchPath(join(process.cwd(), "data"))
-  .onChange.subscribe(value => {
-    console.log("FS changed", value);
-  });
+// i.getInstance(FileSystemWatcherService)
+//   .watchPath(join(process.cwd(), "data"))
+//   .onChange.subscribe(value => {
+//     console.log("FS changed", value);
+//   });
 
 // setTimeout(() => {
 //   i.logger.information({ scope: "system", message: "Shuttin' down..." });
