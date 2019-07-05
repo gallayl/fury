@@ -29,7 +29,7 @@ export const StreamVideoAction: RequestAction = async injector => {
       "Content-Range": `bytes ${start}-${end}/${fileSize}`,
       "Accept-Ranges": "bytes",
       "Content-Length": chunksize,
-      "Content-Type": "video/mp4"
+      "Content-Type": "video/h264"
     };
     resp.writeHead(206, head);
     file.pipe(resp);
@@ -37,7 +37,7 @@ export const StreamVideoAction: RequestAction = async injector => {
   }
   const head = {
     "Content-Length": fileSize,
-    "Content-Type": "video/mp4"
+    "Content-Type": "video/h264"
   };
   resp.writeHead(200, head);
   createReadStream(videoPath).pipe(resp);

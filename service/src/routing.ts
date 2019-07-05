@@ -1,44 +1,42 @@
-import { parse } from "url";
 import { RouteModel } from "@furystack/http-api";
-import { GetSystemLoadAction } from "./actions/get-system-load";
-import { GetSystemDetailsAction } from "./actions/get-system-details";
-import { WakeOnLanAction } from "./actions/wake-on-lan";
-import { StreamVideoAction } from "./actions/stream-video";
-import { GetReleaseInfoAction } from "./actions/get-release-info";
 
-export const routing: RouteModel = injector => {
-  const msg = injector.getRequest();
+export const routing: RouteModel = () => {
+  // Moved stuff to OData
 
-  const urlPathName = parse(msg.url || "", true).pathname;
+  // const msg = injector.getRequest();
 
-  /**
-   * GET Requests section.
-   */
-  if (msg.method === "GET") {
-    switch (urlPathName) {
-      case "/getSystemLoad":
-        return GetSystemLoadAction;
-      case "/getSystemDetails":
-        return GetSystemDetailsAction;
-      case "/video":
-        return StreamVideoAction;
-      case "/releaseInfo":
-        return GetReleaseInfoAction;
-      default:
-        break;
-    }
-  }
+  // const urlPathName = parse(msg.url || "", true).pathname;
 
-  /**
-   * POST requests section
-   */
-  if (msg.method === "POST") {
-    switch (urlPathName) {
-      case "/wake":
-        return WakeOnLanAction;
-      default:
-        break;
-    }
-  }
+  // /**
+  //  * GET Requests section.
+  //  */
+  // if (msg.method === "GET") {
+  //   switch (urlPathName) {
+  //     case "/getSystemLoad":
+  //       return GetSystemLoadAction;
+  //     case "/getSystemDetails":
+  //       return GetSystemDetailsAction;
+  //     case "/video":
+  //       return StreamVideoAction;
+  //     case "/releaseInfo":
+  //       return GetReleaseInfoAction;
+  //     case "/getI2cDevices":
+  //       return GetI2CDevicesAction;
+  //     default:
+  //       break;
+  //   }
+  // }
+
+  // /**
+  //  * POST requests section
+  //  */
+  // if (msg.method === "POST") {
+  //   switch (urlPathName) {
+  //     case "/wake":
+  //       return WakeOnLanAction;
+  //     default:
+  //       break;
+  //   }
+  // }
   return undefined;
 };

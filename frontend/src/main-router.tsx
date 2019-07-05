@@ -45,9 +45,10 @@ export const MainRouter: React.FunctionComponent = () => {
                     <video id="videoPlayer" controls>
                       <source
                         src={`${service.url}/video?video=${encodeURIComponent(
-                          "f:\\Filmek\\Star Wars\\Star.Wars.Episode.III.Revenge.of.the.Sith.2005.720p.BluRay.DTS-ES.x264.Hun-rB\\Star.Wars.Episode.III.Revenge.of.the.Sith.2005.720p.BluRay.DTS-ES.x264.Hun-rB.mkv"
+                          "f:\\Filmek\\Star Wars\\Star.Wars.Episode.VIII.The.Last.Jedi.2017.RETAiL.1080p.BluRay.DTS.x264.HuN-HyperX\\swthelastjedi-1080p-hyperx.mkv"
                         )}`}
-                        type="video/mp4"
+                        //type="video/mp4"
+                        type='video/mp4; codecs="theora, vorbis"'
                       />
                     </video>
                   )}

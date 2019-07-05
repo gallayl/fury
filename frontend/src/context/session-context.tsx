@@ -45,7 +45,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
   useEffect(() => {
     (async () => {
       try {
-        const result = await serviceContext.fetch(`/currentUser`);
+        const result = await serviceContext.fetch(`/odata/users/current`);
         if (result.ok) {
           const json = await result.json();
           setCurrentUser(json);
@@ -73,7 +73,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
   const login = useCallback(
     async (username: string, password: string) => {
       try {
-        const result = await serviceContext.fetch(`/login`, {
+        const result = await serviceContext.fetch(`/odata/login`, {
           method: "POST",
           body: JSON.stringify({ username, password })
         });
@@ -103,7 +103,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
   );
   const logout = useCallback(async () => {
     try {
-      const result = await serviceContext.fetch(`/logout`, {
+      const result = await serviceContext.fetch(`/odata/logout`, {
         method: "POST",
         credentials: "include",
         mode: "cors"

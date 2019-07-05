@@ -89,6 +89,26 @@
     mongodb "^3.2.3"
     semaphore-async-await "^1.5.1"
 
+"@furystack/odata@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@furystack/odata/-/odata-2.0.1.tgz#6213c58fb7fb43460c654d5501be18193b438ddb"
+  integrity sha512-wgBvp8+bBoo4Ld7x7l6SZsolWL5Nx6b0zxvjunG11JXA+VTWhMsNSEzDg8hWlW7UDi/6774yRlVf0WFryhszog==
+  dependencies:
+    "@furystack/core" "^6.0.0"
+    "@furystack/http-api" "^5.1.0"
+    "@furystack/inject" "^4.0.2"
+    "@furystack/repository" "^2.0.0"
+    "@sensenet/client-utils" "^1.5.1"
+
+"@furystack/repository@2.0.0", "@furystack/repository@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@furystack/repository/-/repository-2.0.0.tgz#4cf5d5339344ce6e5cc9703747e41b03bd6604d7"
+  integrity sha512-33kIcCGj/15Eu4uPmztA4rAK7DLebVlmCDhyMjPpbr7f/rGi0rw0TfyHpSvtKryqSvdKrNfTV6cRtyLRtOINXw==
+  dependencies:
+    "@furystack/core" "^6.0.0"
+    "@furystack/inject" "^4.0.2"
+    "@sensenet/client-utils" "^1.5.1"
+
 "@material-ui/core@^4.1.3":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.1.3.tgz#0f8ffae88ac668399fbfc66efa1ed37c4ce29a7d"
@@ -212,6 +232,13 @@
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.2.tgz#0e670ea254d559241b6eeb3894f8754991e73220"
   integrity sha512-ui3WwXmjTaY73fOQ3/m3nnajU/Orhi6cEu5rzX+BrAAJxa3eITXZ5ch9suPqtM03OWhAHhPSyBGCN4UKoxO20Q==
+
+"@types/i2c-bus@^1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@types/i2c-bus/-/i2c-bus-1.0.23.tgz#c91066b9a65bc1dec572dfc1ae920d4bfcf199ed"
+  integrity sha512-ov3VzlDUsynsbVz0Wq6PPX7gCj+g8cZM/CTAwT+S7NshdE3Jb2HrKci8TJlkGcPhlsqAO27gosjOzw0kEUsmgQ==
+  dependencies:
+    "@types/node" "*"
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -791,6 +818,13 @@ binary-extensions@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
+
+bindings@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
+  integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
+  dependencies:
+    file-uri-to-path "1.0.0"
 
 bluebird@^3.5.5:
   version "3.5.5"
@@ -2317,6 +2351,11 @@ file-loader@^4.0.0:
     loader-utils "^1.2.2"
     schema-utils "^1.0.0"
 
+file-uri-to-path@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
+  integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
+
 fill-range@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-4.0.0.tgz#d544811d428f98eb06a63dc402d2403c328c38f7"
@@ -2950,6 +2989,14 @@ hyphenate-style-name@^1.0.0, hyphenate-style-name@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.3.tgz#097bb7fa0b8f1a9cf0bd5c734cf95899981a9b48"
   integrity sha512-EcuixamT82oplpoJ2XU4pDtKGWQ7b00CD9f1ug9IaQ3p1bkHMiKCZ9ut9QDI6qsa6cpUuB+A/I+zLtdNK4n2DQ==
+
+i2c-bus@^4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/i2c-bus/-/i2c-bus-4.0.10.tgz#2febc96b7c0a3a11d50f6fa8741f3af90ab013da"
+  integrity sha512-/Aly83P/sH7DlY5xWKVUUCYG7PryGRnL+iLBNR6/KH1jhSIYyoHEdoKm/Tv+oWvqwTfnBwP4HbMBUlemBAJW7w==
+  dependencies:
+    bindings "^1.5.0"
+    nan "^2.14.0"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
@@ -4051,7 +4098,7 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
-nan@^2.12.1:
+nan@^2.12.1, nan@^2.14.0:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
