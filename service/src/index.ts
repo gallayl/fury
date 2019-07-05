@@ -41,7 +41,7 @@ export const i = new Injector()
     type: "sqlite",
     database: join(process.cwd(), "data.sqlite"),
     entities: [User, Session],
-    logging: true,
+    logging: false,
     synchronize: true
   })
   .setupStores(stores =>
