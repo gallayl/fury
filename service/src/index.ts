@@ -7,7 +7,6 @@ import {
   GetCurrentUser,
   HttpUserContext
 } from "@furystack/http-api";
-import "@furystack/mongodb-store";
 import { FileStore } from "@furystack/core";
 import { EdmType } from "@furystack/odata";
 import { DataSetSettings } from "@furystack/repository";
@@ -40,7 +39,15 @@ export const i = new Injector()
   .useLogging(ConsoleLogger)
   .setupStores(stores =>
     stores
-      .useMongoDb(User, "mongodb://localhost", "Fury", "users")
+      .addStore(
+        new FileStore({
+          model: User,
+          fileName: join(process.cwd(), "users.json"),
+          primaryKey: "username",
+          logger: stores.injector.logger,
+          tickMs: 1000 * 60 * 10
+        })
+      ) // User, "mongodb://localhost", "Fury", "users")
       .addStore(
         new FileStore({
           model: Session,

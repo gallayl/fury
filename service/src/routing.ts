@@ -1,42 +1,49 @@
+import { parse } from "url";
 import { RouteModel } from "@furystack/http-api";
+import { GetSystemLoadAction } from "./actions/get-system-load";
+import { GetSystemDetailsAction } from "./actions/get-system-details";
+import { StreamVideoAction } from "./actions/stream-video";
+import { GetReleaseInfoAction } from "./actions/get-release-info";
+import { GetI2CDevicesAction } from "./actions/get-i2c-devices";
+import { WakeOnLanAction } from "./actions/wake-on-lan";
 
-export const routing: RouteModel = () => {
+export const routing: RouteModel = injector => {
   // Moved stuff to OData
 
-  // const msg = injector.getRequest();
+  const msg = injector.getRequest();
 
-  // const urlPathName = parse(msg.url || "", true).pathname;
+  const urlPathName = parse(msg.url || "", true).pathname;
 
-  // /**
-  //  * GET Requests section.
-  //  */
-  // if (msg.method === "GET") {
-  //   switch (urlPathName) {
-  //     case "/getSystemLoad":
-  //       return GetSystemLoadAction;
-  //     case "/getSystemDetails":
-  //       return GetSystemDetailsAction;
-  //     case "/video":
-  //       return StreamVideoAction;
-  //     case "/releaseInfo":
-  //       return GetReleaseInfoAction;
-  //     case "/getI2cDevices":
-  //       return GetI2CDevicesAction;
-  //     default:
-  //       break;
-  //   }
-  // }
+  /**
+   * GET Requests section.
+   */
+  if (msg.method === "GET") {
+    switch (urlPathName) {
+      case "/getSystemLoad":
+        return GetSystemLoadAction;
+      case "/getSystemDetails":
+        return GetSystemDetailsAction;
+      case "/video":
+        return StreamVideoAction;
+      case "/releaseInfo":
+        return GetReleaseInfoAction;
+      case "/getI2cDevices":
+        return GetI2CDevicesAction;
+      default:
+        break;
+    }
+  }
 
-  // /**
-  //  * POST requests section
-  //  */
-  // if (msg.method === "POST") {
-  //   switch (urlPathName) {
-  //     case "/wake":
-  //       return WakeOnLanAction;
-  //     default:
-  //       break;
-  //   }
-  // }
+  /**
+   * POST requests section
+   */
+  if (msg.method === "POST") {
+    switch (urlPathName) {
+      case "/wake":
+        return WakeOnLanAction;
+      default:
+        break;
+    }
+  }
   return undefined;
 };
