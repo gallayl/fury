@@ -64,7 +64,7 @@ steps:
       pathtoPublish: '$(System.DefaultWorkingDirectory)/frontend.zip'
       artifactName: frontend
 
-  - script: yarn install --production --ignore-scripts --prefer-offline
+  - script: rm -rf $(System.DefaultWorkingDirectory)/service/node_modules
     displayName: "Cleanup Service package"
 
   - task: ArchiveFiles@1
