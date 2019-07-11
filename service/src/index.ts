@@ -128,7 +128,6 @@ export const i = new Injector()
       return ns;
     })
   )
-  .useWebsockets({})
   .setupMqtt({ mqttPort: 1883, wsPort: 1884 });
 
 registerExitHandler(i);
