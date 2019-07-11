@@ -22,7 +22,6 @@
     "@furystack/odata": "2.0.1",
     "@furystack/repository": "2.0.0",
     "@furystack/typeorm-store": "^3.0.0",
-    "@furystack/websocket-api": "^4.0.1",
     "aedes": "^0.39.0",
     "chokidar": "^3.0.1",
     "i2c-bus": "^4.0.10",
