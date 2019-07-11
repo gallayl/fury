@@ -8,7 +8,7 @@ export const ServiceContext = createContext({
   url: process.env.APP_SERVICE_URL,
   mqttUrl: `${currentURL.protocol.startsWith("https") ? "wss" : "ws"}://${
     currentURL.host
-  }/`,
+  }/mqtt`,
   fetch: ((url: string, init?: RequestInit) =>
     fetch(`${process.env.APP_SERVICE_URL}${url}`, {
       ...init,
