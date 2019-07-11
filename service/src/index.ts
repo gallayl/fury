@@ -129,7 +129,6 @@ export const i = new Injector()
   )
   .setupMqtt({
     mqttPort: 1883,
-    wsPort: 1884,
     aedesSettings: {}
   });
 

@@ -1,12 +1,11 @@
 import { createServer } from "net";
-import { createServer as createHttpServer } from "http";
 import { Injector } from "@furystack/inject/dist/Injector";
 import { Server as AedesServer, AedesOptions } from "aedes";
 import ws from "websocket-stream";
+import { ServerManager } from "@furystack/core";
 
 export interface MqttSettings {
   mqttPort: number;
-  wsPort: number;
   aedesSettings?: AedesOptions;
 }
 
@@ -27,6 +26,7 @@ Injector.prototype.setupMqtt = function(settings) {
       done(null, true);
     }
   });
+
   const mqttServer = createServer(aedesServer.handle);
   mqttServer.listen(settings.mqttPort, () => {
     logger.information({
@@ -34,18 +34,13 @@ Injector.prototype.setupMqtt = function(settings) {
     });
   });
 
-  const httpServer = createHttpServer();
-
-  ws.createServer(
-    {
-      server: httpServer
-    },
-    aedesServer.handle as any
-  );
-  httpServer.listen(settings.wsPort, () => {
-    logger.information({
-      message: `MQTT WS server is listening at port ${settings.wsPort}`
-    });
-  });
+  for (const server of this.getInstance(ServerManager).getServers()) {
+    ws.createServer(
+      {
+        server
+      },
+      aedesServer.handle as any
+    );
+  }
   return this;
 };

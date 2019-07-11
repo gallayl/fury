@@ -7,8 +7,8 @@ const currentURL = new URL(
 export const ServiceContext = createContext({
   url: process.env.APP_SERVICE_URL,
   mqttUrl: `${currentURL.protocol.startsWith("https") ? "wss" : "ws"}://${
-    currentURL.hostname
-  }:1884/`,
+    currentURL.host
+  }/`,
   fetch: ((url: string, init?: RequestInit) =>
     fetch(`${process.env.APP_SERVICE_URL}${url}`, {
       ...init,
