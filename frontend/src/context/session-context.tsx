@@ -105,7 +105,6 @@ export const SessionContextProvider: React.FunctionComponent = props => {
     try {
       const result = await serviceContext.fetch(`/odata/logout`, {
         method: "POST",
-        credentials: "include",
         mode: "cors"
       });
       if (result.ok) {

@@ -8,6 +8,7 @@ import {
   HttpUserContext
 } from "@furystack/http-api";
 import "@furystack/typeorm-store";
+import "@furystack/websocket-api";
 import { EdmType } from "@furystack/odata";
 import { DataSetSettings } from "@furystack/repository";
 import { routing } from "./routing";
@@ -16,6 +17,7 @@ import { User, Session } from "./models";
 // import { FileSystemWatcherService } from "./services/filesystem-watcher";
 import { registerExitHandler } from "./exitHandler";
 import { I2CStore, I2CDevice } from "./services/i2c-store";
+import "./mqtt-injector-extensions";
 
 export const authorizedOnly = async (options: { injector: Injector }) => {
   const authorized = await options.injector
@@ -53,7 +55,8 @@ export const i = new Injector()
   .useHttpApi({
     corsOptions: {
       credentials: true,
-      origins: ["http://localhost:8080"]
+      origins: ["http://localhost:8080"],
+      headers: ["cache", "content-type"]
     }
   })
   .useHttpAuthentication({
@@ -124,19 +127,10 @@ export const i = new Injector()
 
       return ns;
     })
-  );
+  )
+  .useWebsockets({})
+  .setupMqtt({ mqttPort: 1883, wsPort: 1884 });
 
 registerExitHandler(i);
 
 seed(i);
-
-// i.getInstance(FileSystemWatcherService)
-//   .watchPath(join(process.cwd(), "data"))
-//   .onChange.subscribe(value => {
-//     console.log("FS changed", value);
-//   });
-
-// setTimeout(() => {
-//   i.logger.information({ scope: "system", message: "Shuttin' down..." });
-//   i.dispose(); //.getInstance(FileSystemWatcherService).dispose();
-// }, 20 * 1000);

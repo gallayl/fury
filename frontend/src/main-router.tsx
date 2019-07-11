@@ -8,6 +8,7 @@ import { Home } from "./pages/home";
 import { FuryAppBar } from "./components/app-bar";
 import { Status } from "./pages/status";
 import { ServiceContext } from "./context/service-context";
+import { Mqtt } from "./pages/mqtt";
 
 export const MainRouter: React.FunctionComponent = () => {
   const session = useContext(SessionContext);
@@ -38,6 +39,9 @@ export const MainRouter: React.FunctionComponent = () => {
             <Switch>
               <Route path="/status" exact>
                 <Status />
+              </Route>
+              <Route path="/mqtt" exact>
+                <Mqtt />
               </Route>
               <Route path="/secret" exact>
                 <ServiceContext.Consumer>

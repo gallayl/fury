@@ -29,7 +29,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-cypress": "^2.2.1",
     "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jsdoc": "^10.0.3",
+    "eslint-plugin-jsdoc": "^15.3.4",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
@@ -63,7 +63,9 @@
   },
   "scripts": {
     "build": "tsc -b",
-    "start": "concurrently --kill-others \"yarn workspace @fury/service start\" \"yarn workspace @fury/frontend start --env.APP_SERVICE_URL=http://localhost:9090\"  ",
+    "start": "concurrently --kill-others \"yarn startService\" \"yarn startFrontend\"  ",
+    "startService": "yarn workspace @fury/service start",
+    "startFrontend": "yarn workspace @fury/frontend start --env.APP_SERVICE_URL=http://localhost:9090",
     "clean": "rimraf service/dist frontend/dist **/tsconfig.tsbuildinfo tsconfig.tsbuildinfo",
     "lint": "eslint . --ext .tsx,.ts --cache"
   }
