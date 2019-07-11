@@ -20,7 +20,13 @@ declare module "@furystack/inject/dist/Injector" {
 // tslint:disable-next-line: no-unnecessary-type-annotation
 Injector.prototype.setupMqtt = function(settings) {
   const logger = this.logger.withScope("Mqtt");
-  const aedesServer = AedesServer(settings.aedesSettings);
+  const aedesServer = AedesServer({
+    ...settings.aedesSettings,
+    authenticate: (client, _username, _password, done) => {
+      console.log(client);
+      done(null, true);
+    }
+  });
   const mqttServer = createServer(aedesServer.handle);
   mqttServer.listen(settings.mqttPort, () => {
     logger.information({
@@ -41,6 +47,5 @@ Injector.prototype.setupMqtt = function(settings) {
       message: `MQTT WS server is listening at port ${settings.wsPort}`
     });
   });
-
   return this;
 };

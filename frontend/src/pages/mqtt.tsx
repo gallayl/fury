@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { connect } from "mqtt";
+import { ServiceContext } from "../context/service-context";
 
 export const Mqtt: React.FunctionComponent = () => {
-  const [url] = useState("ws://localhost:1884/");
+  const service = useContext(ServiceContext);
 
   const [client] = useState(
     connect(
-      url,
+      service.mqttUrl,
       {
         clientId: "fury",
         resubscribe: true
@@ -29,7 +30,7 @@ export const Mqtt: React.FunctionComponent = () => {
     });
 
     client.on("error", e => console.warn(e));
-  }, [url, client]);
+  }, [service, client]);
 
   return <div>MQTT</div>;
 };
