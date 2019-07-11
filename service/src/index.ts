@@ -8,7 +8,6 @@ import {
   HttpUserContext
 } from "@furystack/http-api";
 import "@furystack/typeorm-store";
-import "@furystack/websocket-api";
 import { EdmType } from "@furystack/odata";
 import { DataSetSettings } from "@furystack/repository";
 import { routing } from "./routing";
@@ -128,7 +127,11 @@ export const i = new Injector()
       return ns;
     })
   )
-  .setupMqtt({ mqttPort: 1883, wsPort: 1884 });
+  .setupMqtt({
+    mqttPort: 1883,
+    wsPort: 1884,
+    aedesSettings: {}
+  });
 
 registerExitHandler(i);
 
