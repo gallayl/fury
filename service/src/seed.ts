@@ -3,7 +3,7 @@ import { PhysicalStore, StoreManager, SearchOptions } from "@furystack/core";
 import { HttpAuthenticationSettings } from "@furystack/http-api";
 import { Injector } from "@furystack/inject";
 import { TypeOrmStore } from "@furystack/typeorm-store";
-import { User, DhtSensor, DhtValue } from "./models";
+import { User, DhtSensor, DhtValue, PirSensor, PirValue } from "./models";
 import { NodeMcu } from "./models/node-mcu";
 
 /**
@@ -70,6 +70,7 @@ export const seed = async (injector: Injector) => {
       mac: "00:00:00:00:00",
       ip: "192.168.0.666",
       dhtSensors: [],
+      pirSensors: [],
       displayName: "TestNodeMCU"
     } as NodeMcu,
     mcuStore,
@@ -103,6 +104,35 @@ export const seed = async (injector: Injector) => {
       temperatureCelsius: 1
     } as any) as DhtValue,
     dhtValueStore,
+    injector
+  );
+
+  const pirStore = sm.getStoreFor(PirSensor);
+
+  const pir = await getOrCreate(
+    {
+      filter: { id: 1 }
+    },
+    {
+      id: 1,
+      displayName: "Test PIR Sensor",
+      nodeMcu: node,
+      dataPin: "d6"
+    } as PirSensor,
+    pirStore,
+    injector
+  );
+
+  const pirValueStore = sm.getStoreFor(PirValue);
+
+  await getOrCreate(
+    {},
+    {
+      id: 1,
+      rising: true,
+      sensor: pir
+    } as PirValue,
+    pirValueStore,
     injector
   );
 

@@ -12,7 +12,15 @@ import { EdmType } from "@furystack/odata";
 import { DataSetSettings } from "@furystack/repository";
 import { routing } from "./routing";
 import { seed } from "./seed";
-import { User, Session, DhtSensor, NodeMcu, DhtValue } from "./models";
+import {
+  User,
+  Session,
+  DhtSensor,
+  NodeMcu,
+  DhtValue,
+  PirSensor,
+  PirValue
+} from "./models";
 // import { FileSystemWatcherService } from "./services/filesystem-watcher";
 import { registerExitHandler } from "./exitHandler";
 import { I2CStore, I2CDevice } from "./services/i2c-store";
@@ -41,7 +49,15 @@ export const i = new Injector()
   .useTypeOrm({
     type: "sqlite",
     database: join(process.cwd(), "data.sqlite"),
-    entities: [User, Session, DhtSensor, DhtValue, NodeMcu],
+    entities: [
+      User,
+      Session,
+      DhtSensor,
+      DhtValue,
+      NodeMcu,
+      PirSensor,
+      PirValue
+    ],
     logging: false,
     synchronize: true
   })
@@ -52,6 +68,8 @@ export const i = new Injector()
       .useTypeOrmStore(DhtSensor)
       .useTypeOrmStore(DhtValue)
       .useTypeOrmStore(NodeMcu)
+      .useTypeOrmStore(PirSensor)
+      .useTypeOrmStore(PirValue)
       .addStore(new I2CStore(stores.injector))
   )
   .useHttpApi({
@@ -96,6 +114,14 @@ export const i = new Injector()
         ...authorizedDataSet,
         name: "nodeMCUs"
       })
+      .createDataSet(PirSensor, {
+        ...authorizedDataSet,
+        name: "pirSensors"
+      })
+      .createDataSet(PirValue, {
+        ...authorizedDataSet,
+        name: "pirValues"
+      })
   )
   .useOdata("odata", odata =>
     odata.addNameSpace("default", ns => {
@@ -120,7 +146,8 @@ export const i = new Injector()
               { property: "id", type: EdmType.Int32 },
               { property: "dataPin", type: EdmType.String },
               { property: "displayName", type: EdmType.String },
-              { property: "nodeMcu", type: EdmType.Unknown }
+              { property: "nodeMcu", type: EdmType.Unknown },
+              { property: "values", type: EdmType.Unknown }
             ]
           })
           .addEntityType({
@@ -141,6 +168,17 @@ export const i = new Injector()
               { property: "ip", type: EdmType.String },
               { property: "displayName", type: EdmType.String },
               { property: "dhtSensors", type: EdmType.Unknown }
+            ]
+          })
+          .addEntityType({
+            model: PirSensor,
+            primaryKey: "id",
+            properties: [
+              { property: "id", type: EdmType.Int32 },
+              { property: "displayName", type: EdmType.String },
+              { property: "dataPin", type: EdmType.String },
+              { property: "nodeMcu", type: EdmType.Unknown },
+              { property: "values", type: EdmType.Unknown }
             ]
           })
       ).setupCollections(collections =>
@@ -170,6 +208,14 @@ export const i = new Injector()
           .addCollection({
             model: DhtValue,
             name: "dhtValues"
+          })
+          .addCollection({
+            model: PirSensor,
+            name: "pirSensors"
+          })
+          .addCollection({
+            model: PirValue,
+            name: "pirValues"
           })
       );
 

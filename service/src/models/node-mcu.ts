@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryColumn, OneToMany } from "typeorm";
 import { DhtSensor } from "./dht-sensor";
+import { PirSensor } from "./pir-sensor";
 
 @Entity()
 export class NodeMcu {
@@ -14,4 +15,7 @@ export class NodeMcu {
 
   @OneToMany(_d => DhtSensor, s => s.nodeMcu)
   public dhtSensors!: DhtSensor[];
+
+  @OneToMany(_d => PirSensor, s => s.nodeMcu)
+  public pirSensors!: PirSensor[];
 }
