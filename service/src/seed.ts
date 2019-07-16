@@ -1,8 +1,10 @@
+/* eslint-disable @typescript-eslint/no-object-literal-type-assertion */
 import { PhysicalStore, StoreManager, SearchOptions } from "@furystack/core";
 import { HttpAuthenticationSettings } from "@furystack/http-api";
 import { Injector } from "@furystack/inject";
 import { TypeOrmStore } from "@furystack/typeorm-store";
-import { User } from "./models";
+import { User, DhtSensor, DhtValue } from "./models";
+import { NodeMcu } from "./models/node-mcu";
 
 /**
  * gets an existing instance if exists or create and return if not. Throws error on multiple result
@@ -53,8 +55,54 @@ export const seed = async (injector: Injector) => {
         .getInstance(HttpAuthenticationSettings)
         .hashMethod("password"),
       roles: []
-    } as any,
+    } as User,
     userStore as PhysicalStore<User>,
+    injector
+  );
+
+  const mcuStore = sm.getStoreFor(NodeMcu);
+
+  const node = await getOrCreate(
+    {
+      filter: { mac: "00:00:00:00:00" }
+    },
+    {
+      mac: "00:00:00:00:00",
+      ip: "192.168.0.666",
+      dhtSensors: [],
+      displayName: "TestNodeMCU"
+    } as NodeMcu,
+    mcuStore,
+    injector
+  );
+
+  const dhtStore = sm.getStoreFor(DhtSensor);
+
+  const dht = await getOrCreate(
+    {
+      filter: { id: 1 }
+    },
+    {
+      id: 1,
+      displayName: "Test Sensor",
+      nodeMcu: node,
+      dataPin: "d6"
+    } as DhtSensor,
+    dhtStore,
+    injector
+  );
+
+  const dhtValueStore = sm.getStoreFor(DhtValue);
+
+  await getOrCreate(
+    {},
+    ({
+      id: 1,
+      humidityPercent: 66,
+      sensor: dht,
+      temperatureCelsius: 1
+    } as any) as DhtValue,
+    dhtValueStore,
     injector
   );
 

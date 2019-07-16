@@ -12,7 +12,7 @@ import { EdmType } from "@furystack/odata";
 import { DataSetSettings } from "@furystack/repository";
 import { routing } from "./routing";
 import { seed } from "./seed";
-import { User, Session } from "./models";
+import { User, Session, DhtSensor, NodeMcu, DhtValue } from "./models";
 // import { FileSystemWatcherService } from "./services/filesystem-watcher";
 import { registerExitHandler } from "./exitHandler";
 import { I2CStore, I2CDevice } from "./services/i2c-store";
@@ -41,7 +41,7 @@ export const i = new Injector()
   .useTypeOrm({
     type: "sqlite",
     database: join(process.cwd(), "data.sqlite"),
-    entities: [User, Session],
+    entities: [User, Session, DhtSensor, DhtValue, NodeMcu],
     logging: false,
     synchronize: true
   })
@@ -49,6 +49,9 @@ export const i = new Injector()
     stores
       .useTypeOrmStore(User)
       .useTypeOrmStore(Session)
+      .useTypeOrmStore(DhtSensor)
+      .useTypeOrmStore(DhtValue)
+      .useTypeOrmStore(NodeMcu)
       .addStore(new I2CStore(stores.injector))
   )
   .useHttpApi({
@@ -77,6 +80,22 @@ export const i = new Injector()
         ...authorizedDataSet,
         name: "users"
       })
+      .createDataSet(DhtSensor, {
+        ...authorizedDataSet,
+        name: "dhtSensors"
+      })
+      .createDataSet(DhtValue, {
+        ...authorizedDataSet,
+        name: "dhtValues",
+        authorizeUpdate: async () => ({
+          isAllowed: false,
+          message: "No update allowed!"
+        })
+      })
+      .createDataSet(NodeMcu, {
+        ...authorizedDataSet,
+        name: "nodeMCUs"
+      })
   )
   .useOdata("odata", odata =>
     odata.addNameSpace("default", ns => {
@@ -94,6 +113,36 @@ export const i = new Injector()
             primaryKey: "address",
             properties: [{ property: "address", type: EdmType.Int16 }]
           })
+          .addEntityType({
+            model: DhtSensor,
+            primaryKey: "id",
+            properties: [
+              { property: "id", type: EdmType.Int32 },
+              { property: "dataPin", type: EdmType.String },
+              { property: "displayName", type: EdmType.String },
+              { property: "nodeMcu", type: EdmType.Unknown }
+            ]
+          })
+          .addEntityType({
+            model: DhtValue,
+            primaryKey: "id",
+            properties: [
+              { property: "id", type: EdmType.Int32 },
+              { property: "humidityPercent", type: EdmType.Double },
+              { property: "temperatureCelsius", type: EdmType.Double },
+              { property: "timestamp", type: EdmType.DateTime }
+            ]
+          })
+          .addEntityType({
+            model: NodeMcu,
+            primaryKey: "mac",
+            properties: [
+              { property: "mac", type: EdmType.String },
+              { property: "ip", type: EdmType.String },
+              { property: "displayName", type: EdmType.String },
+              { property: "dhtSensors", type: EdmType.Unknown }
+            ]
+          })
       ).setupCollections(collections =>
         collections
           .addCollection({
@@ -109,6 +158,18 @@ export const i = new Injector()
           .addCollection({
             model: I2CDevice,
             name: "i2cDevices"
+          })
+          .addCollection({
+            model: NodeMcu,
+            name: "nodeMCUs"
+          })
+          .addCollection({
+            model: DhtSensor,
+            name: "dhtSensors"
+          })
+          .addCollection({
+            model: DhtValue,
+            name: "dhtValues"
           })
       );
 
