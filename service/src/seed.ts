@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-object-literal-type-assertion */
 import { PhysicalStore, StoreManager, SearchOptions } from "@furystack/core";
 import { HttpAuthenticationSettings } from "@furystack/http-api";
 import { Injector } from "@furystack/inject";

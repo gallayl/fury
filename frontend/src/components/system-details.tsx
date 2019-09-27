@@ -10,7 +10,7 @@ import {
 import React, { useContext, useEffect, useState } from "react";
 import { ServiceContext } from "../context/service-context";
 
-export const humanFileSize = (bytes: number, si: boolean = false) => {
+export const humanFileSize = (bytes: number, si = false) => {
   const thresh = si ? 1000 : 1024;
   if (Math.abs(bytes) < thresh) {
     return `${bytes} B`;

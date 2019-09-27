@@ -23,7 +23,6 @@ import {
 } from "./models";
 // import { FileSystemWatcherService } from "./services/filesystem-watcher";
 import { registerExitHandler } from "./exitHandler";
-import { I2CStore, I2CDevice } from "./services/i2c-store";
 import "./mqtt-injector-extensions";
 
 export const authorizedOnly = async (options: { injector: Injector }) => {
@@ -70,7 +69,6 @@ export const i = new Injector()
       .useTypeOrmStore(NodeMcu)
       .useTypeOrmStore(PirSensor)
       .useTypeOrmStore(PirValue)
-      .addStore(new I2CStore(stores.injector))
   )
   .useHttpApi({
     corsOptions: {
@@ -90,10 +88,6 @@ export const i = new Injector()
   })
   .setupRepository(repo =>
     repo
-      .createDataSet(I2CDevice, {
-        ...authorizedDataSet,
-        name: "i2cDevices"
-      })
       .createDataSet(User, {
         ...authorizedDataSet,
         name: "users"
@@ -132,12 +126,6 @@ export const i = new Injector()
             primaryKey: "username",
             properties: [{ property: "username", type: EdmType.String }],
             name: "User"
-          })
-          .addEntityType({
-            model: I2CDevice,
-            name: "I2CDevice",
-            primaryKey: "address",
-            properties: [{ property: "address", type: EdmType.Int16 }]
           })
           .addEntityType({
             model: DhtSensor,
@@ -192,10 +180,6 @@ export const i = new Injector()
                 name: "current"
               }
             ]
-          })
-          .addCollection({
-            model: I2CDevice,
-            name: "i2cDevices"
           })
           .addCollection({
             model: NodeMcu,

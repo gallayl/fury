@@ -4,7 +4,6 @@ import { GetSystemLoadAction } from "./actions/get-system-load";
 import { GetSystemDetailsAction } from "./actions/get-system-details";
 import { StreamVideoAction } from "./actions/stream-video";
 import { GetReleaseInfoAction } from "./actions/get-release-info";
-import { GetI2CDevicesAction } from "./actions/get-i2c-devices";
 import { WakeOnLanAction } from "./actions/wake-on-lan";
 
 export const routing: RouteModel = injector => {
@@ -27,8 +26,6 @@ export const routing: RouteModel = injector => {
         return StreamVideoAction;
       case "/releaseInfo":
         return GetReleaseInfoAction;
-      case "/getI2cDevices":
-        return GetI2CDevicesAction;
       default:
         break;
     }
