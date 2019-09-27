@@ -1,6 +1,6 @@
 {
   "name": "fury",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "example web app based on furystack",
   "main": "service/src/index.ts",
   "repository": "https://github.com/gallayl/fury.git",
