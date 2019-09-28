@@ -31,7 +31,8 @@ export const MainRouter: React.FunctionComponent = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            overflow: "hidden"
+            overflow: "hidden",
+            height: "100%"
           }}
         >
           <FuryAppBar />

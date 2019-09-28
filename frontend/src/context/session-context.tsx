@@ -5,11 +5,13 @@ import React, {
   createContext,
   useState
 } from "react";
+import { v4 } from "uuid";
 import { User } from "../models/user";
 import { useLogger } from "../hooks/use-logger";
 import { ServiceContext } from "./service-context";
 
 export interface SessionContextValue {
+  appId: string;
   currentUser: User | undefined;
   logout: () => Promise<void>;
   login: (username: string, password: string) => Promise<void>;
@@ -17,6 +19,7 @@ export interface SessionContextValue {
 }
 
 export const SessionContext = createContext<SessionContextValue>({
+  appId: v4(),
   currentUser: undefined,
   login: async () => {
     throw Error("CurrentUserContext not initialized!");
@@ -30,6 +33,7 @@ export const SessionContext = createContext<SessionContextValue>({
 export const SessionContextProvider: React.FunctionComponent = props => {
   const [currentUser, setCurrentUser] = useState<User | undefined>(undefined);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [appId] = useState(v4());
   const serviceContext = useContext(ServiceContext);
 
   useEffect(() => {
@@ -131,6 +135,7 @@ export const SessionContextProvider: React.FunctionComponent = props => {
   return (
     <SessionContext.Provider
       value={{
+        appId,
         currentUser,
         login,
         logout,

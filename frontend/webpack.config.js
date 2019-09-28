@@ -53,7 +53,8 @@ module.exports = env => ({
       APP_VERSION: require("./package.json").version,
       GIT_COMMITHASH: gitRevisionPlugin.commithash(),
       GIT_BRANCH: gitRevisionPlugin.branch(),
-      APP_SERVICE_URL: (env && env.APP_SERVICE_URL) || ""
+      APP_SERVICE_URL: (env && env.APP_SERVICE_URL) || "",
+      BUILD_DATE: new Date().toISOString()
     }),
     new CopyPlugin([{ from: "./static", to: "./" }])
   ],
