@@ -21,7 +21,7 @@
     "@furystack/odata": "^2.0.5",
     "@furystack/repository": "^2.0.3",
     "@furystack/typeorm-store": "^3.0.1",
-    "aedes": "^0.39.0",
+    "aedes": "^0.42.1",
     "aedes-persistence": "7.1.1",
     "chokidar": "^3.1.1",
     "sqlite3": "^4.1.0",
